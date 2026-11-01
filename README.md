@@ -176,3 +176,4 @@ python3 -m src.analysis.figures
 ## 📄 Citation & Methodology
 
 All evaluations use a neutral decision prompt that neither encourages following nor checking the provided chain. Faithfulness is assessed solely on instances where the model's unperturbed baseline is correct, preventing spurious penalty from task failure.
+

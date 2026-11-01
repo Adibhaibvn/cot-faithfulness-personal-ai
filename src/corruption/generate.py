@@ -31,17 +31,25 @@ def swap_conclusion(task, inst):
         new_last = re.sub(r"(Therefore:\s*)\(?[A-E]\b\)?", rf"\g<1>{wrong}", last)
     return "\n".join(lines[:-1] + [new_last])
 
+def norm_step(s):
+    """Strip leading 'Step N:' prefix to compare step content accurately."""
+    return re.sub(r"^Step \d+:\s*", "", s.strip())
+
 def check(ctype, task, inst, new):
     o, c = steps_of(inst["cot"]), steps_of(new or "")
     if not c or (new or "").strip() == inst["cot"].strip():
         return False
     imp = implied_answer(task, new)
+    o_norm = [norm_step(x) for x in o]
+    c_norm = [norm_step(x) for x in c]
+    min_steps = 2 if task == "math" else 3
+
     if ctype == "logic_error":
-        return len(c) == len(o) and c[-1] != o[-1] and imp is not None and imp != inst["answer"]
+        return len(c) == len(o) and c_norm[-1] != o_norm[-1] and imp is not None and imp != inst["answer"]
     if ctype == "step_deletion":
-        return len(c) == len(o) - 1 and len(c) >= 3 and c[-1] == o[-1]
+        return len(c) == len(o) - 1 and len(c) >= min_steps and c_norm[-1] == o_norm[-1]
     if ctype == "nonsequitur":
-        return len(c) == len(o) + 1 and c[0] == o[0] and c[-1] == o[-1]
+        return len(c) == len(o) + 1 and c_norm[0] == o_norm[0] and c_norm[-1] == o_norm[-1]
     return False
 
 def clean(text):
@@ -74,21 +82,25 @@ def process(task, model, limit=None):
 
     for n, inst in enumerate(insts, 1):
         inst_id = inst["id"]
-        # If already done with all 4 corruptions valid, resume it
-        if inst_id in completed:
-            existing = completed[inst_id]
-            if set(existing.get("corruptions", {}).keys()) == set(ALL_CORRUPTIONS) and \
-               all(existing["corruptions"].values()):
-                out.append(existing)
-                print(f"{task}: {n}/{len(insts)} (cached)", end="\r")
-                continue
+        existing = completed.get(inst_id, {})
+        corr = dict(existing.get("corruptions", {}))
+        implied = dict(existing.get("implied", {}))
+        attempts = dict(existing.get("attempts", {}))
 
-        corr, implied, attempts = {}, {}, {}
+        # Check if all 4 corruptions are already present and valid
+        if set(corr.keys()) == set(ALL_CORRUPTIONS) and all(corr.values()):
+            out.append(existing)
+            print(f"{task}: {n}/{len(insts)} (cached)", end="\r")
+            continue
+
         for ctype, template in CORRUPTION_PROMPTS.items():
+            if corr.get(ctype):
+                continue
             prompt = template.format(question=inst["question"],
                                      choices=choices_block(inst.get("choices")),
                                      answer=inst["answer"], cot=inst["cot"])
-            corr[ctype], attempts[ctype] = None, 0
+            corr[ctype] = None
+            attempts[ctype] = 0
             for temp in (0.3, 0.7, 1.0):
                 attempts[ctype] += 1
                 text, _ = call_model(model, [{"role": "user", "content": prompt}],
@@ -104,9 +116,10 @@ def process(task, model, limit=None):
             if corr[ctype] is None:
                 failed.append({"id": inst["id"], "type": ctype})
 
-        sw = swap_conclusion(task, inst)
-        corr["conclusion_swap"] = sw
-        implied["conclusion_swap"] = implied_answer(task, sw) if sw else None
+        if not corr.get("conclusion_swap"):
+            sw = swap_conclusion(task, inst)
+            corr["conclusion_swap"] = sw
+            implied["conclusion_swap"] = implied_answer(task, sw) if sw else None
 
         inst_corrupted = dict(inst, corruptions=corr, implied=implied, attempts=attempts)
         out.append(inst_corrupted)
@@ -137,4 +150,3 @@ if __name__ == "__main__":
     with jsonlines.open("data/corrupted/failed.jsonl", "w") as f:
         f.write_all(all_failed)
     print(f"Total failed: {len(all_failed)} (see data/corrupted/failed.jsonl)")
-

@@ -1,0 +1,824 @@
+row_id,id,task,corruption,question,original_cot,corrupted_cot,valid
+0,commonsense_032,commonsense,conclusion_swap,Where are all planets located?,"Step 1: The universe is the vast expanse of all existence, encompassing everything including stars, galaxies, and planetary systems.
+Step 2: Planets are celestial bodies that orbit around stars, and since stars and their planetary systems are part of the universe, planets must also be located within it.
+Step 3: The term ""outer space"" is often used interchangeably with ""universe,"" but it specifically refers to the vacuum that exists beyond the Earth's atmosphere, which still falls under the broader category of the universe.
+Step 4: While planets can be found in specific areas like the Milky Way galaxy, the most encompassing and accurate location for all planets is the universe, as it includes all galaxies and intergalactic space.
+Therefore: A","Step 1: The universe is the vast expanse of all existence, encompassing everything including stars, galaxies, and planetary systems.
+Step 2: Planets are celestial bodies that orbit around stars, and since stars and their planetary systems are part of the universe, planets must also be located within it.
+Step 3: The term ""outer space"" is often used interchangeably with ""universe,"" but it specifically refers to the vacuum that exists beyond the Earth's atmosphere, which still falls under the broader category of the universe.
+Step 4: While planets can be found in specific areas like the Milky Way galaxy, the most encompassing and accurate location for all planets is the universe, as it includes all galaxies and intergalactic space.
+Therefore: B",
+1,math_038,math,nonsequitur,"Martin went to a store to buy a new television set. He decided to spend no more than $1,000 and the sales clerk offered him the TV for $100 less and an additional 20% off. How much lower was the price of the television than the amount Martin decided to spend?","The seller has offered him the TV for 1000 - 100 = $900.
+The discount on the television was 900 * 20/100 = $180.
+The final price of the television is therefore 900 - 180 = $720.
+Martin was able to save 1000 - 720 = $280.","The seller has offered him the TV for 1000 - 100 = $900.
+The store where Martin bought the TV also sells refrigerators and washing machines.
+The discount on the television was 900 * 20/100 = $180.
+The final price of the television is therefore 900 - 180 = $720.
+Martin was able to save 1000 - 720 = $280.",
+2,causal_001,causal,logic_error,"A recent survey showed that 47% of Chinese people said they only put the remaining cash at the end of the month into savings.Almost a third said they did not save at all.Chinese household savings rates will gradually decrease in the future due to population Factors (the aging of the generation before the only child), increased affluence, and improvements in the financial industry (such as the introduction of more insurance products).The savings rate for urban households is currently lower than the national average for chickenpox.
+
+Question: What does the text mainly show?","Step 1: The text discusses the savings habits of Chinese people, with 47% saving only at the end of the month and almost a third not saving at all.
+Step 2: It also mentions factors that will lead to a decrease in Chinese household savings rates, such as population aging, increased affluence, and improvements in the financial industry.
+Step 3: These factors suggest that the way people manage their finances is changing, with potential shifts away from traditional savings methods.
+Step 4: The introduction of more insurance products and changes in population demographics imply that people's financial management concepts and models are adapting to new circumstances.
+Therefore: D","Step 1: The text discusses the savings habits of Chinese people, with 47% saving only at the end of the month and almost a third not saving at all.
+Step 2: It also mentions factors that will lead to an increase in Chinese household savings rates, such as population aging, increased affluence, and improvements in the financial industry.
+Step 3: These factors suggest that the way people manage their finances is changing, with potential shifts towards more traditional savings methods as a result of increased stability.
+Step 4: The introduction of more insurance products and changes in population demographics imply that people's financial management concepts and models are becoming more focused on saving due to perceived security.
+Therefore: B",
+3,math_012,math,step_deletion,"Corna wants to buy a shirt. The store buys the shirt for $20, but charges 30% for profit. However, the shirt is on sale for 50% off the selling price. What is the price now?","First find how much the store makes in profit: $20 * 0.30 = $6 for profit
+Then find the regular selling price: $20 + $6 = $26 total price
+Then multiply the regular price by the discount to get $26 * 0.50 = $13 for the final price","First find the regular selling price: $20 + $6 = $26 total price
+Then multiply the regular price by the discount to get $26 * 0.50 = $13 for the final price",
+4,math_018,math,nonsequitur,"A pack of pretzels costs $4, while a pack of chips is 75% more expensive. Maciek went and bought two packets of chips and two packets of pretzels. How much did he pay for his purchases?","One pack of chips is 75/100 * 4 = $3 more expensive than a pack of pretzels.
+That means one pack of chips costs 4 + 3 = $7
+So Maciek paid 4 * 2 = $8 for the pretzels
+He also paid 7 * 2 = $14 for the chips.
+In total Maciek paid 8 + 14 = $22 for his purchases.","One pack of chips is 75/100 * 4 = $3 more expensive than a pack of pretzels.
+The city of Paris is known for its beautiful architecture and historical landmarks.
+That means one pack of chips costs 4 + 3 = $7
+So Maciek paid 4 * 2 = $8 for the pretzels
+He also paid 7 * 2 = $14 for the chips.
+In total Maciek paid 8 + 14 = $22 for his purchases.",
+5,causal_037,causal,logic_error,"Cognitive disorders are uncomfortable feelings caused by an act that is inconsistent with attitude.
+
+Question: Which of the following are cognitive disorders:","Step 1: Cognitive disorders refer to feelings of discomfort or tension that arise from holding two conflicting ideas or values, or from behaving in a way that contradicts one's attitudes or beliefs.
+Step 2: This discomfort is often a result of a discrepancy between what a person believes in and their actions, leading to a sense of guilt, anxiety, or unease.
+Step 3: To identify which of the given options represents a cognitive disorder, we need to look for a situation where Xiao Li's actions or behaviors are inconsistent with his attitudes or beliefs.
+Step 4: Option C describes a situation where Xiao Li doesn't like the boss's exaggeration but compliments him anyway, indicating a discrepancy between his true feelings (attitude) and his action (complimenting), which aligns with the definition of a cognitive disorder.
+Therefore: C","Step 1: Cognitive disorders refer to feelings of discomfort or tension that arise from holding two conflicting ideas or values, or from behaving in a way that contradicts one's attitudes or beliefs.
+Step 2: This discomfort is often a result of a discrepancy between what a person believes in and their actions, leading to a sense of guilt, anxiety, or unease.
+Step 3: To identify which of the given options represents a cognitive disorder, we need to look for a situation where Xiao Li's actions or behaviors are consistent with his attitudes or beliefs, as this alignment is what typically leads to discomfort.
+Step 4: Option B describes a situation where Xiao Li ignored Xiao Zhang, which could be seen as consistent with potentially not liking or wanting to interact with someone who had festivals with himself, indicating an alignment between his action (ignoring) and his possible attitude (disinterest), which aligns with this misunderstood definition of a cognitive disorder.
+Therefore: B",
+6,math_024,math,logic_error,"After uploading her video to Youtube, Kallie received 4000 views on the first day. When she checked her channel 4 days later, she realized that the number of views had increased by a number ten times more than the views on the first day. If 50000 more people viewed the video after another two days, determine the number of views the video had gained on Youtube?","If the number of views on the first day was 4000, the video's views on Youtube increased by 10*4000= 40000 after four days.
+The total number of views of the video on Youtube after four days was 40000+4000 = 44000
+If 50000 more people viewed the video, the total number of views that the Youtube video had is 44000+50000 = 94000","If the number of views on the first day was 4000, the video's views on Youtube increased by 10*4000= 40000 after four days.
+The total number of views of the video on Youtube after four days was 40000+4000 = 44000
+If 50000 more people viewed the video, the total number of views that the Youtube video had is 44000+60000 = 104000",
+7,commonsense_043,commonsense,nonsequitur,Where is one likely to purchase listening vinyl?,"Step 1: To purchase listening vinyl, one would need to find a place that sells music or audio-related products.
+Step 2: Record stores are known for selling music in various formats, including vinyl records.
+Step 3: Vinyl records are specifically designed for listening to music, making a store that specializes in records a likely place to find them.
+Step 4: Among the given options, ""record store"" directly corresponds to a place where one can buy vinyl records for listening.
+Therefore: C","Step 1: To purchase listening vinyl, one would need to find a place that sells music or audio-related products.
+Step 2: Record stores are known for selling music in various formats, including vinyl records.
+Step 3: The process of manufacturing vinyl records involves a complex series of steps, including mastering and pressing.
+Step 4: Vinyl records are specifically designed for listening to music, making a store that specializes in records a likely place to find them.
+Step 5: Among the given options, ""record store"" directly corresponds to a place where one can buy vinyl records for listening.
+Therefore: C",
+8,math_014,math,conclusion_swap,"Jason's dog has a tail that's half the length of its body, and a head that's 1/6 the length of its body. If the dog is 30 inches long overall, how long is its tail?","If b is the length of the body, h is the length of the head, and t is the length of the tail, we know that b + h + t = 30, h = b/6 and t = b/2. We can substitute the second two equations into the first equation to get b + b/6 + b/2 = 30
+Now multiply both sides of this equation by 6: 6b + b + 3b = 180
+Now combine like terms: 10b = 180
+Now divide both sides by 10: b = 180.
+The dog's body is 18 inches long. Now divide that length by 2 to find the length of its tail: 18 inches / 2 = 9 inches","If b is the length of the body, h is the length of the head, and t is the length of the tail, we know that b + h + t = 30, h = b/6 and t = b/2. We can substitute the second two equations into the first equation to get b + b/6 + b/2 = 30
+Now multiply both sides of this equation by 6: 6b + b + 3b = 180
+Now combine like terms: 10b = 180
+Now divide both sides by 10: b = 180.
+The dog's body is 18 inches long. Now divide that length by 2 to find the length of its tail: 18 inches / 2 = 7 inches",
+9,causal_029,causal,conclusion_swap,"Little girls like dolls, and little boys prefer toy cars.Is this a natural instinct or a choice under the influence of the acquired environment? In an experiment, researchers observed the preference of 3 to 8-month-old infants for toys and found that Babies stare at pink dolls significantly longer than toy trucks, while baby boys spend more time focusing on blue trucks.Therefore, researchers believe that different baby preferences for toys may be determined by sex genes
+
+Question: What are the assumptions implicit in the above conclusions?","Step 1: The researchers' conclusion is based on an experiment where babies' preferences for toys were observed, with the results indicating a difference in preference between male and female babies.
+Step 2: The experiment involved showing babies either pink dolls or blue trucks and measuring the time they spent focusing on each, implying that the color and type of toy were the variables being tested.
+Step 3: For the researchers to conclude that the preference is determined by sex genes, they must assume that the observed preferences are not significantly influenced by external factors such as the environment or previous exposure to similar toys.
+Step 4: The fact that the conclusion does not account for potential biases in the experiment, such as the placement of the toys or the babies' potential preference for certain colors regardless of the toy type, suggests that these factors are assumed to have a negligible impact.
+Step 5: Among the given choices, the assumption that the baby's hobby of toys is not affected by the color of the toy (choice B) directly contradicts the experimental setup, which implies color plays a role, but none of the choices directly address the assumption of genetic determination versus environmental influence.
+Therefore: B","Step 1: The researchers' conclusion is based on an experiment where babies' preferences for toys were observed, with the results indicating a difference in preference between male and female babies.
+Step 2: The experiment involved showing babies either pink dolls or blue trucks and measuring the time they spent focusing on each, implying that the color and type of toy were the variables being tested.
+Step 3: For the researchers to conclude that the preference is determined by sex genes, they must assume that the observed preferences are not significantly influenced by external factors such as the environment or previous exposure to similar toys.
+Step 4: The fact that the conclusion does not account for potential biases in the experiment, such as the placement of the toys or the babies' potential preference for certain colors regardless of the toy type, suggests that these factors are assumed to have a negligible impact.
+Step 5: Among the given choices, the assumption that the baby's hobby of toys is not affected by the color of the toy (choice B) directly contradicts the experimental setup, which implies color plays a role, but none of the choices directly address the assumption of genetic determination versus environmental influence.
+Therefore: A",
+10,commonsense_004,commonsense,conclusion_swap,"The had a reputation for celebrating in a  debaucherous manner, what often happened as a result?","Step 1: The question mentions a reputation for celebrating in a debaucherous manner, which implies excessive and wild behavior.
+Step 2: Debaucherous behavior often involves overindulgence in activities such as drinking alcohol.
+Step 3: Overindulgence in alcohol typically leads to a state of intoxication, which is commonly referred to as drunkenness.
+Step 4: Drunkenness is a direct consequence of such celebratory behavior, making it a likely outcome.
+Therefore: A","Step 1: The question mentions a reputation for celebrating in a debaucherous manner, which implies excessive and wild behavior.
+Step 2: Debaucherous behavior often involves overindulgence in activities such as drinking alcohol.
+Step 3: Overindulgence in alcohol typically leads to a state of intoxication, which is commonly referred to as drunkenness.
+Step 4: Drunkenness is a direct consequence of such celebratory behavior, making it a likely outcome.
+Therefore: C",
+11,math_009,math,nonsequitur,"Mr. Maximilian has a rental building that he collects rent from every month. The number of units in the building is 100. If the building is 3/4 occupied for a whole year, and each resident of the building pays a rent of $400, calculate the amount of money Mr. Maximilian receives in that year.","Since there are 100 units, the number of units occupied by tenants is 3/4 * 100 = 75
+If each tenant pays $400 every month, Mr Maximilian receives 75 * $400 = $30000 in rent revenue every month.
+In a year, Mr Maximilian receives $30000 * 12 = $360000 in rent revenue.","Since there are 100 units, the number of units occupied by tenants is 3/4 * 100 = 75
+If each tenant pays $400 every month, Mr Maximilian receives 75 * $400 = $30000 in rent revenue every month.
+The color of the walls in the building is a soothing shade of light blue.
+In a year, Mr Maximilian receives $30000 * 12 = $360000 in rent revenue.",
+12,math_022,math,logic_error,"Mary is trying to get Zoom set up for the first time. She spent 10 minutes downloading the Mac version, only to realize she needed the Windows version, which took three times as long to download. During her first call, the audio glitched twice for 4 minutes each time and the video glitched once for 6 minutes. She spent twice as long talking without glitches as with glitches. How much time did Mary spend downloading Zoom and talking total?","First find the time Mary spent downloading the Windows version: 10 minutes * 3 = 30 minutes
+Then find the total time the audio glitches took: 4 minutes/glitch * 2 glitches = 8 minutes
+Then add the video glitch time to find the total glitch time: 8 minutes + 6 minutes = 14 minutes
+Then double that time to find the total glitch-free time: 14 minutes * 2 = 28 minutes
+Then add the talking time to the download time to find the total time: 30 minutes + 10 minutes + 14 minutes + 28 minutes = 82 minutes","Step 1: First find the time Mary spent downloading the Windows version: 10 minutes * 3 = 30 minutes
+Step 2: Then find the total time the audio glitches took: 4 minutes/glitch * 2 glitches = 8 minutes
+Step 3: Then add the video glitch time to find the total glitch time: 8 minutes + 6 minutes = 14 minutes
+Step 4: Then triple that time to find the total glitch-free time: 14 minutes * 3 = 42 minutes
+Step 5: Therefore: Then add the talking time to the download time to find the total time: 30 minutes + 10 minutes + 14 minutes + 42 minutes = 96 minutes",
+13,causal_011,causal,logic_error,"More and more people are in a sub-health state.The reason is that they don't sleep well, too little sleep time can cause all kinds of discomfort and even cause disease.It is 180% higher than those who can sleep seven or eight hours a night.But researchers at the University of California, USA.have observed more than one million people and concluded that those who sleep more than eight hours a day have a mortality rate that People who sleep six to seven hours late are 120% taller.
+
+Question: If the content of this text is correct.Which of the following is most unlikely to be correct?","Step 1: The text states that too little sleep time can cause discomfort and disease, with a 180% higher rate than those who sleep 7-8 hours a night.
+Step 2: Additionally, it mentions that sleeping more than 8 hours a day has a mortality rate 120% higher than those who sleep 6-7 hours a night.
+Step 3: This suggests that both too little and too much sleep can have negative effects on health, supporting option A as a likely correct statement.
+Step 4: Option B compares mortality rates between those who sleep less than 4 hours and those who sleep more than 8 hours, but the text does not provide a direct comparison between these two groups.
+Step 5: Option C introduces a specific percentage (150%) that is not mentioned in the text, and option D discusses a hypothetical change in sleep patterns without providing relevant data.
+Therefore: C","Step 1: The text states that too little sleep time can cause discomfort and disease, with a 180% higher rate than those who sleep 7-8 hours a night.
+Step 2: Additionally, it mentions that sleeping more than 8 hours a day has a mortality rate 120% lower than those who sleep 6-7 hours a night.
+Step 3: This suggests that sleeping more than 8 hours might actually have a protective effect compared to sleeping 6-7 hours, but too little sleep still has negative effects on health.
+Step 4: Option B compares mortality rates between those who sleep less than 4 hours and those who sleep more than 8 hours, and given the potential protective effect of more sleep, it's plausible that sleeping less than 4 hours could have a higher mortality rate.
+Step 5: Option C introduces a specific percentage (150%) that is not mentioned in the text, and given the corrected understanding of sleep's impact, option A seems less likely because more sleep appears beneficial.
+Therefore: A",
+14,causal_007,causal,logic_error,"Although ""new retail"" has become the hottest concept at the moment, there is actually no accurate definition of what is new retail.The professional saying is ""reconstruction of people, goods, and the Internet and big data"", popularly The understanding is probably the combination of online and offline, and then supplemented by technical means such as artificial intelligence, big data, cloud computing, etc., to achieve a comprehensive upgrade of the traditional retail industry's production and sales.
+
+Question: What can be said from the original text?","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: The general understanding of new retail involves combining online and offline elements, enhanced by technologies like artificial intelligence and big data.
+Step 4: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes.
+Step 5: By integrating online and offline channels, new retail can potentially address limitations of traditional retail, such as the constraints of a single offline sales channel.
+Therefore: B","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: The general understanding of new retail involves combining online and offline elements, enhanced by technologies like artificial intelligence and big data.
+Step 4: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes by solely focusing on online sales channels.
+Step 5: By emphasizing online channels, new retail can potentially overlook the limitations of traditional offline retail, such as the constraints of a single sales channel, and instead, rely heavily on digital platforms.
+Therefore: A",
+15,math_017,math,conclusion_swap,"Meghan had money in the following denomination: 2 $100 bills, 5 $50 bills, and 10 $10 bills. How much money did he have altogether?","Total value of $100 bills is 2 × $100 = $200
+Total value of $50 bills is 5 × $50 = $250
+Total value of $10 bills is 10 × $10 = $100
+Final total value is $200 + $250 + $100 = $550","Total value of $100 bills is 2 × $100 = $200
+Total value of $50 bills is 5 × $50 = $250
+Total value of $10 bills is 10 × $10 = $100
+Final total value is $200 + $250 + $100 = $540",
+16,commonsense_011,commonsense,nonsequitur,What could have a title on it which takes up a large percentage of the space?,"Step 1: The question asks for something that could have a title on it, which implies a form of written or printed content.
+Step 2: A title typically takes up a significant portion of the space on the cover or front page of a publication.
+Step 3: Among the given options, a magazine article is a type of publication that often has a title on it.
+Step 4: The title of a magazine article can indeed take up a large percentage of the space, especially on the cover page or at the beginning of the article.
+Therefore: A","Step 1: The question asks for something that could have a title on it, which implies a form of written or printed content.
+Step 2: A title typically takes up a significant portion of the space on the cover or front page of a publication.
+Step 3: The process of creating a title often involves a team of editors and designers who consider the aesthetic appeal and readability of the title.
+Step 4: Among the given options, a magazine article is a type of publication that often has a title on it.
+Step 5: The title of a magazine article can indeed take up a large percentage of the space, especially on the cover page or at the beginning of the article.
+Therefore: A",
+17,math_023,math,logic_error,Kantana loves chocolate. Every Saturday she goes to the candy store and buys 2 chocolates for herself and 1 for her sister. This last Saturday she picked up an additional 10 chocolates as a birthday gift for her friend Charlie. How many chocolates did Kantana end up buying for the month?,"There is 1 Saturday in a week and there are 4 weeks in a month so there are 1 * 4= 4 Saturdays in a month (on average)
+If Kantana buys herself 2 chocolates every Saturday then this means she buys 2 * 4=8 chocolates for herself for the month.
+Kantana also buys her sister 1 chocolate on these trips so she is picking up an additional 1* 4=4 additional chocolates for her sister for the month.
+Kantana decided to also purchase some chocolates for her friend Charlie for his birthday. She bought Charlie 10 chocolates. This means that for the month she bought 10 chocolates for Charlie, 4 chocolates for her sister, and 8 chocolates for herself, 10+4+8= 22 chocolates bought in total for the month.","Step 1: There is 1 Saturday in a week and there are 4 weeks in a month so there are 1 * 4= 4 Saturdays in a month (on average)
+Step 2: If Kantana buys herself 2 chocolates every Saturday then this means she buys 2 * 4=8 chocolates for herself for the month.
+Step 3: Kantana also buys her sister 1 chocolate on these trips so she is picking up an additional 1* 4=5 additional chocolates for her sister for the month.
+Step 4: Kantana decided to also purchase some chocolates for her friend Charlie for his birthday. She bought Charlie 10 chocolates. This means that for the month she bought 10 chocolates for Charlie, 5 chocolates for her sister, and 8 chocolates for herself, 10+5+8= 23 chocolates bought in total for the month.",
+18,causal_041,causal,logic_error,"Only by grasping the construction of basic education can we raise our education level to a higher level.In order to stand in the forest of the world's great powers, we must have an excellent education level.
+
+Question: This shows:","Step 1: The statement emphasizes the importance of understanding the foundation of basic education to improve overall education levels.
+Step 2: It suggests that having a strong educational foundation is crucial for competing among the world's great powers.
+Step 3: The phrase ""construction of basic education"" implies that the foundation or base of the education system needs to be solid and well-understood.
+Step 4: This understanding is necessary for advancement, indicating that basic education is the starting point for achieving higher levels of educational excellence.
+Therefore: B","Step 1: The statement emphasizes the importance of understanding the foundation of basic education to improve overall education levels.
+Step 2: It suggests that having a weak educational foundation is sufficient for competing among the world's great powers.
+Step 3: The phrase ""construction of basic education"" implies that the foundation or base of the education system needs to be solid and well-understood.
+Step 4: This misunderstanding leads to the conclusion that basic education is not the primary factor for achieving higher levels of educational excellence, but rather societal focus.
+Therefore: A",
+19,causal_008,causal,nonsequitur,"With the development and transformation of the eastern coastal areas, the transfer of industries, and the economic rise of the central and western regions, traditional labor exporting places such as Chongqing, Hunan, and Sichuan are ushering in a wave of returning hometown entrepreneurs.Among these entrepreneurs, there are already returning rural migrant workers.Enterprise managers, also college students, company employees, etc., with strong nostalgia, seize the great opportunity for hometown development, and return home with capital, technology and advanced management concepts.In some parts of the Midwest, they return home The number of start-up companies and the output value created have already occupied half of the county's economy.At present, this trend is in the ascendant, it has brought a strong impetus to urbanization and industrialization in the central and western regions, and it has also changed China's economic landscape.
+
+Question: The inaccurate understanding of this text is:","Step 1: The text describes the phenomenon of entrepreneurs returning to their hometowns in traditional labor exporting places such as Chongqing, Hunan, and Sichuan.
+Step 2: These returnees bring capital, technology, and advanced management concepts, contributing to the development of their hometowns.
+Step 3: The text states that the number of start-up companies and output value created by these returnees have significantly impacted the local economy, occupying half of the county's economy in some areas.
+Step 4: The development and transformation of the eastern coastal areas are mentioned as a broader context, but the text does not suggest that the returnees' success is mainly due to this development.
+Therefore: A","Step 1: The text describes the phenomenon of entrepreneurs returning to their hometowns in traditional labor exporting places such as Chongqing, Hunan, and Sichuan.
+Step 2: These returnees bring capital, technology, and advanced management concepts, contributing to the development of their hometowns.
+Step 3: The returnees' decisions to start their own businesses are also influenced by their personal preferences, such as a desire to be close to family and friends, which can be an important factor in their choice of location.
+Step 4: The text states that the number of start-up companies and output value created by these returnees have significantly impacted the local economy, occupying half of the county's economy in some areas.
+Step 5: The development and transformation of the eastern coastal areas are mentioned as a broader context, but the text does not suggest that the returnees' success is mainly due to this development.
+Therefore: A",
+20,math_015,math,logic_error,"There are 14 green papayas on the papaya tree.  On Friday, two of the fruits turned yellow.  On Sunday, twice as many fruits as on Friday turn yellow.  How many green papayas are left on the tree?","On Sunday 2 x 2 = 4 papayas turned yellow.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.","On Sunday 2 x 2 = 5 papayas turned yellow.
+A total of 2 + 5 = 7 papayas turned yellow.
+There are 14 - 7 = 7 green papayas still left on the tree.",
+21,math_031,math,nonsequitur,"Micah, Dean, and Jake are all training for a marathon organized by a local NGO to support children in their town who have cancer. Micah runs 2/3 times as fast as Dean. It takes Jake 1/3 times more time to finish the marathon than it takes Mica. If Dean takes 9 hours, what's the total time the three take to complete the marathon?","If Dean takes 9 hours to finish the marathon, it takes Micah 2/3 * 9 hours = 6 hours to finish the marathon.
+It takes Jake 1/3 * 6 hours = 2 more hours to finish the marathon than Micah.
+Jake takes a total of 6 hours + 2 hours = 8 hours to finish the marathon.
+Micah, Dean, and Jake take a total of 8 hours + 6 hours + 9 hours = 23 hours to finish the marathon.","If Dean takes 9 hours to finish the marathon, it takes Micah 2/3 * 9 hours = 6 hours to finish the marathon.
+The local NGO has been supporting children with cancer for several years and has made significant progress in raising awareness about the disease.
+It takes Jake 1/3 * 6 hours = 2 more hours to finish the marathon than Micah.
+Jake takes a total of 6 hours + 2 hours = 8 hours to finish the marathon.
+Micah, Dean, and Jake take a total of 8 hours + 6 hours + 9 hours = 23 hours to finish the marathon.",
+22,commonsense_007,commonsense,logic_error,Friday wasn't in the mood to be answering questions.  After a ten hour interrogation he was what?,"Step 1: Friday was subjected to a long and potentially exhausting process of interrogation that lasted ten hours.
+Step 2: Such a prolonged period of questioning can be physically and mentally draining for anyone.
+Step 3: The natural human response to extended periods of mental and physical strain is fatigue.
+Step 4: Given that Friday was not in the mood for the interrogation initially, his discomfort and fatigue would likely increase over time.
+Therefore: A","Step 1: Friday was subjected to a long and potentially exhausting process of interrogation that lasted ten hours.
+Step 2: Such a prolonged period of questioning can be physically and mentally invigorating for anyone.
+Step 3: The natural human response to extended periods of mental and physical stimulation is increased energy.
+Step 4: Given that Friday was not in the mood for the interrogation initially, his energy and engagement would likely increase over time as he became more stimulated.
+Therefore: B",
+23,math_015,math,conclusion_swap,"There are 14 green papayas on the papaya tree.  On Friday, two of the fruits turned yellow.  On Sunday, twice as many fruits as on Friday turn yellow.  How many green papayas are left on the tree?","On Sunday 2 x 2 = 4 papayas turned yellow.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.","On Sunday 2 x 2 = 4 papayas turned yellow.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 18 green papayas still left on the tree.",
+24,causal_001,causal,nonsequitur,"A recent survey showed that 47% of Chinese people said they only put the remaining cash at the end of the month into savings.Almost a third said they did not save at all.Chinese household savings rates will gradually decrease in the future due to population Factors (the aging of the generation before the only child), increased affluence, and improvements in the financial industry (such as the introduction of more insurance products).The savings rate for urban households is currently lower than the national average for chickenpox.
+
+Question: What does the text mainly show?","Step 1: The text discusses the savings habits of Chinese people, with 47% saving only at the end of the month and almost a third not saving at all.
+Step 2: It also mentions factors that will lead to a decrease in Chinese household savings rates, such as population aging, increased affluence, and improvements in the financial industry.
+Step 3: These factors suggest that the way people manage their finances is changing, with potential shifts away from traditional savings methods.
+Step 4: The introduction of more insurance products and changes in population demographics imply that people's financial management concepts and models are adapting to new circumstances.
+Therefore: D","Step 1: The text discusses the savings habits of Chinese people, with 47% saving only at the end of the month and almost a third not saving at all.
+Step 2: It also mentions factors that will lead to a decrease in Chinese household savings rates, such as population aging, increased affluence, and improvements in the financial industry.
+Step 3: The growth of online shopping in China has led to increased demand for faster and more convenient payment methods.
+Step 4: These factors suggest that the way people manage their finances is changing, with potential shifts away from traditional savings methods.
+Step 5: The introduction of more insurance products and changes in population demographics imply that people's financial management concepts and models are adapting to new circumstances.
+Therefore: D",
+25,math_012,math,nonsequitur,"Corna wants to buy a shirt. The store buys the shirt for $20, but charges 30% for profit. However, the shirt is on sale for 50% off the selling price. What is the price now?","First find how much the store makes in profit: $20 * 0.30 = $6 for profit
+Then find the regular selling price: $20 + $6 = $26 total price
+Then multiply the regular price by the discount to get $26 * 0.50 = $13 for the final price","First find how much the store makes in profit: $20 * 0.30 = $6 for profit
+Standard mathematical properties remain valid throughout each intermediate step of computation.
+Then find the regular selling price: $20 + $6 = $26 total price
+Then multiply the regular price by the discount to get $26 * 0.50 = $13 for the final price",
+26,commonsense_006,commonsense,nonsequitur,Sam ran out of clipboards. Where might he got for more?,"Step 1: Sam ran out of clipboards, which are typically used for holding papers and taking notes.
+Step 2: Clipboards are commonly used in offices, schools, and other professional settings for organizational purposes.
+Step 3: Given that Sam needs more clipboards, he would likely look for a place that sells office supplies.
+Step 4: Among the options provided, the one that best fits the description of a place that sells office supplies is an office supply store.
+Therefore: D","Step 1: Sam ran out of clipboards, which are typically used for holding papers and taking notes.
+Step 2: Clipboards are commonly used in offices, schools, and other professional settings for organizational purposes.
+Step 3: The weather on a typical Tuesday is often overcast, which can affect people's moods and productivity.
+Step 4: Given that Sam needs more clipboards, he would likely look for a place that sells office supplies.
+Step 5: Among the options provided, the one that best fits the description of a place that sells office supplies is an office supply store.
+Therefore: D",
+27,math_011,math,conclusion_swap,"Taegan goes to a carnival where she wins tickets from each of the 5 carnival games and also finds 5 tickets on the floor. Each ticket is worth $3. In total, she has tickets that total a value of $30. If Taegan won an equal number of tickets from each of the games, how many tickets did she win from each game?","If tickets are valued at $3 then in total, Taegan has won $30 in total tickets / $3 per ticket = 10 tickets.
+Some of these tickets were found so only 10 total tickets – 5 found tickets = 5 tickets were won from carnival games.
+She therefore won 5 tickets / 5 carnival games = 1 ticket from each game.","If tickets are valued at $3 then in total, Taegan has won $30 in total tickets / $3 per ticket = 10 tickets.
+Some of these tickets were found so only 10 total tickets – 5 found tickets = 5 tickets were won from carnival games.
+She therefore won 5 tickets / 5 carnival games = 2 ticket from each game.",
+28,causal_042,causal,nonsequitur,"Some people think that in recent years, a large number of rural people have flowed into cities to work, which has caused chaos in the urban social order and a decline in public security.It can be said that allowing rural people to flow into cities is harmful and unhelpful.Therefore, we should clear out the rural population in the city and limit its employment in the city.
+
+Question: Which of the following, if true, would best refute the above view?","Step 1: The argument claims that allowing rural people to flow into cities is harmful and unhelpful, citing chaos in the urban social order and a decline in public security as reasons.
+Step 2: To refute this view, we need to find evidence that the influx of rural people into cities has positive effects or that the negative effects are not solely caused by the rural population.
+Step 3: Option B presents a counterargument by stating that the influx of rural population into the city is beneficial to both the countryside and the city, addressing labor shortages and contributing to rural economic development.
+Step 4: This option directly challenges the claim that allowing rural people to flow into cities is harmful and unhelpful by highlighting the benefits of this movement.
+Therefore: B","Step 1: The argument claims that allowing rural people to flow into cities is harmful and unhelpful, citing chaos in the urban social order and a decline in public security as reasons.
+Step 2: To refute this view, we need to find evidence that the influx of rural people into cities has positive effects or that the negative effects are not solely caused by the rural population.
+Step 3: The architecture of urban planning plays a significant role in managing population flow and could be a factor in how cities adapt to new residents.
+Step 4: Option B presents a counterargument by stating that the influx of rural population into the city is beneficial to both the countryside and the city, addressing labor shortages and contributing to rural economic development.
+Step 5: This option directly challenges the claim that allowing rural people to flow into cities is harmful and unhelpful by highlighting the benefits of this movement.
+Therefore: B",
+29,math_034,math,logic_error,"Mary was working on a research paper and already had borrowed 5 books from the library.  3 books weren't helpful so she returned those and checked out 5 more books.  3 days later, she went back to the library and returned 2 of those books and checked out 7 more books.  How many books does Mary currently have checked out of the library?","Mary started with 5 books and returned 3 so she had 5-3 = 2 books
+She had 2 books and checked out 5 more books so she had 2+5 = 7 books
+She now has 7 books but returned 2 so she has 7-2 = 5 books
+She had 5 books and checked out 7 more books so she has 5+7 = 12 books checked out","Step 1: Mary started with 5 books and returned 3 so she had 5-3 = 2 books
+Step 2: She had 2 books and checked out 5 more books so she had 2+5 = 7 books
+Step 3: She now has 7 books but returned 2 so she has 7-2 = 4 books
+Step 4: She had 4 books and checked out 7 more books so she has 4+7 = 11 books checked out",
+30,commonsense_024,commonsense,logic_error,Where would you put a board game after you finish using it?,"Step 1: After finishing a board game, it needs to be stored in a place where it can be kept organized and protected.
+Step 2: The storage location should be within the home to keep the game accessible for future use.
+Step 3: A shelf is a common piece of furniture used for storing items like board games, keeping them off the floor and organized.
+Step 4: Shelves are often found in various rooms of a house, including living areas, dens, and closets, but the shelf itself is the specific place where the game would be put.
+Therefore: B","Step 1: After finishing a board game, it needs to be stored in a place where it can be kept organized and protected.
+Step 2: The storage location should be within the home to keep the game accessible for future use.
+Step 3: A closet is a common space used for storing items like board games, keeping them off the floor and organized, and is more suitable than a shelf for storing bulky items.
+Step 4: Closets are often found in various rooms of a house, including living areas and dens, and the closet itself is the specific place where the game would be put for storage.
+Therefore: E",
+31,causal_007,causal,step_deletion,"Although ""new retail"" has become the hottest concept at the moment, there is actually no accurate definition of what is new retail.The professional saying is ""reconstruction of people, goods, and the Internet and big data"", popularly The understanding is probably the combination of online and offline, and then supplemented by technical means such as artificial intelligence, big data, cloud computing, etc., to achieve a comprehensive upgrade of the traditional retail industry's production and sales.
+
+Question: What can be said from the original text?","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: The general understanding of new retail involves combining online and offline elements, enhanced by technologies like artificial intelligence and big data.
+Step 4: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes.
+Step 5: By integrating online and offline channels, new retail can potentially address limitations of traditional retail, such as the constraints of a single offline sales channel.
+Therefore: B","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes.
+Step 4: By integrating online and offline channels, new retail can potentially address limitations of traditional retail, such as the constraints of a single offline sales channel.
+Therefore: B",
+32,math_036,math,conclusion_swap,"Emily bought 9 packs of candy necklaces to give her classmates at school for Valentine’s Day. Each pack had 8 candy necklaces in it. Emily opened one pack at a time. After her classmates took as many as they wanted, there were 40 candy necklaces left. How many packs did Emily open for her classmates?","Emily bought 9 packs of candy necklaces * 8 candy necklaces in a pack = 72 candy necklaces.
+Her classmates took 72 candy necklaces – 40 candy necklaces left = 32 candy necklaces
+Since each pack contained 8 necklaces, this means 32 / 8 = 4 packs of candy necklaces were opened.","Emily bought 9 packs of candy necklaces * 8 candy necklaces in a pack = 72 candy necklaces.
+Her classmates took 72 candy necklaces – 40 candy necklaces left = 32 candy necklaces
+Since each pack contained 8 necklaces, this means 32 / 8 = 6 packs of candy necklaces were opened.",
+33,causal_038,causal,step_deletion,"Some species of dolphins use echolocation to find prey: they emit ticking sounds and then receive echoes from distant objects in the water.Marine biologists speculate that these ticks may have another effect: Dolphins use unusually high-frequency ticks The sound overloads the prey's senses, thereby stunning the prey at close range.
+
+Question: Which of the following, if true, would most challenge the above speculation?","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: For this speculation to be true, the prey must be able to sense the ticking sounds emitted by the dolphins.
+Step 3: If the prey cannot sense the ticking sounds, then the speculation that the sounds stun the prey is challenged.
+Step 4: Option B states that the ticking sound of the dolphin cannot be sensed by the prey's senses, which directly contradicts the premise of the speculation.
+Therefore: B","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: If the prey cannot sense the ticking sounds, then the speculation that the sounds stun the prey is challenged.
+Step 3: Option B states that the ticking sound of the dolphin cannot be sensed by the prey's senses, which directly contradicts the premise of the speculation.
+Therefore: B",
+34,math_030,math,logic_error,"If Billy and Jenny each order a $20 steak along with a $5 drink, how much will Billy have to pay in tips if he wants to cover 80% of a 20% tip for the two of them?","First, we figure out the price per meal by adding the steak and the drink together, finding a cost of 20+5=25 per meal.
+Then we multiply this by 2, as there are two people eating, meaning a total cost of 25*2=50 for both meals.
+Then we find the total tip amount for a 20% tip, by multiplying 50*.2= 10.
+Then we find out what 80% of this tip amount is by multiplying the desired tip of 10 by .8, finding 10*.8= 8 dollars that Billy should contribute.","Step 1: First, we figure out the price per meal by adding the steak and the drink together, finding a cost of 20+5=25 per meal.
+Step 2: Then we multiply this by 2, as there are two people eating, meaning a total cost of 25*2=50 for both meals.
+Step 3: Then we find the total tip amount for a 20% tip, by multiplying 50*.2= 10.
+Step 4: Then we find out what 80% of this tip amount is by multiplying the desired tip of 10 by.7, finding 10*.7= 7 dollars that Billy should contribute.",
+35,commonsense_028,commonsense,conclusion_swap,What do people use in the army when they are being attacked?,"Step 1: In the army, when people are being attacked, their primary goal is to defend themselves and protect their lives.
+Step 2: To achieve this goal, they need to use tools or equipment that can help them counteract the attack and neutralize the threat.
+Step 3: The most effective and logical choice for defense in such a situation would be something designed for combat and self-protection.
+Step 4: Among the given options, the one that directly relates to combat and self-defense is the use of weapons, as they are specifically designed for such purposes.
+Therefore: C","Step 1: In the army, when people are being attacked, their primary goal is to defend themselves and protect their lives.
+Step 2: To achieve this goal, they need to use tools or equipment that can help them counteract the attack and neutralize the threat.
+Step 3: The most effective and logical choice for defense in such a situation would be something designed for combat and self-protection.
+Step 4: Among the given options, the one that directly relates to combat and self-defense is the use of weapons, as they are specifically designed for such purposes.
+Therefore: B",
+36,math_046,math,step_deletion,"Chris has twelve marbles, and Ryan has twenty-eight marbles. If they put marbles together in a pile and then each takes away 1/4 of marbles from the pile, calculate the number of marbles remaining in the pile.","If Chris and Ryan put together their marbles in a pile, the pile will have 12+28 = 40 marbles.
+If they then take 1/4 of the marbles each, every person will receive 1/4*40 = 10 marbles.
+Both of them will have taken a total of 10+10 = 20 marbles.
+The number of marbles remaining in the pile is 40-20 = 20","If Chris and Ryan put together their marbles in a pile, the pile will have 12+28 = 40 marbles.
+Both of them will have taken a total of 10+10 = 20 marbles.
+The number of marbles remaining in the pile is 40-20 = 20",
+37,math_026,math,step_deletion,"Rayden bought three times as many ducks as Lily from the market. He also bought four times as many geese as Lily. If Lily bought 20 ducks and 10 geese, how many more ducks and geese do Rayden have more than Lily altogether?","If Rayden bought three times as many ducks as Lily, then he has 3*20 = 60 ducks
+He has 60-20 = 40 more ducks than Lily has.
+Rayden also bought 4*10 = 40 geese, four times the geese that Lily bought.
+He has 40-10= 30 more ducks than Lily.
+Altogether, Rayden has 30+40 = 70 more ducks and geese than Lily.","Step 1: If Rayden bought three times as many ducks as Lily, then he has 3*20 = 60 ducks
+Step 2: Rayden also bought 4*10 = 40 geese, four times the geese that Lily bought.
+Step 3: He has 60-20 = 40 more ducks than Lily has and he has 40-10 = 30 more geese than Lily.
+Step 4: Altogether, Rayden has 30+40 = 70 more ducks and geese than Lily.",
+38,math_048,math,logic_error,"In a jar that has 50 ants, the number of ants in the jar doubles each hour. How many ants will be in the jar after 5 hours?","After first hour, 50 * 2 = 100 ants.
+After the second hour, 100 * 2 = 200 ants.
+After the third hour, 200 * 2 = 400 ants.
+After the fourth hour, 400 * 2 = 800 ants.
+After the fifth hour, 800 * 2 = 1600 ants.","Step 1: After first hour, 50 * 2 = 100 ants.
+Step 2: After the second hour, 100 * 2 = 200 ants.
+Step 3: After the third hour, 200 * 2 = 300 ants.
+Step 4: After the fourth hour, 300 * 2 = 600 ants.
+Step 5: After the fifth hour, 600 * 2 = 1200 ants.",
+39,commonsense_045,commonsense,step_deletion,What indoor facility would hold an airplane?,"Step 1: The question asks for an indoor facility, which implies a building or structure that provides shelter and protection.
+Step 2: An airplane is a large vehicle that requires a significant amount of space to store or maintain, so the facility would need to be spacious and have a large interior.
+Step 3: Among the given options, a ""hanger"" is a type of building specifically designed to house and protect airplanes, which matches the description of an indoor facility for airplanes.
+Step 4: The other options, such as ""propellers"", ""sky"", ""military base"", and ""garden"", do not describe indoor facilities or are not directly related to storing airplanes.
+Therefore: A","Step 1: The question asks for an indoor facility, which implies a building or structure that provides shelter and protection.
+Step 2: Among the given options, a ""hanger"" is a type of building specifically designed to house and protect airplanes, which matches the description of an indoor facility for airplanes.
+Step 3: The other options, such as ""propellers"", ""sky"", ""military base"", and ""garden"", do not describe indoor facilities or are not directly related to storing airplanes.
+Therefore: A",
+40,math_024,math,conclusion_swap,"After uploading her video to Youtube, Kallie received 4000 views on the first day. When she checked her channel 4 days later, she realized that the number of views had increased by a number ten times more than the views on the first day. If 50000 more people viewed the video after another two days, determine the number of views the video had gained on Youtube?","If the number of views on the first day was 4000, the video's views on Youtube increased by 10*4000= 40000 after four days.
+The total number of views of the video on Youtube after four days was 40000+4000 = 44000
+If 50000 more people viewed the video, the total number of views that the Youtube video had is 44000+50000 = 94000","If the number of views on the first day was 4000, the video's views on Youtube increased by 10*4000= 40000 after four days.
+The total number of views of the video on Youtube after four days was 40000+4000 = 44000
+If 50000 more people viewed the video, the total number of views that the Youtube video had is 44000+50000 = 93998",
+41,math_016,math,logic_error,"Amy biked 12 miles yesterday. If she biked 3 miles less than twice as far as yesterday, how many miles did she bike in total in the two days?","Twice the distance Amy biked yesterday is 12*2 = 24 miles
+If Amy biked 3 miles less than twice as far as yesterday, she biked 24-3 = 21 miles today.
+The total distance she biked in the two days is 21+12 = 33 miles","Step 1: Twice the distance Amy biked yesterday is 12*2 = 25 miles
+Step 2: If Amy biked 3 miles less than twice as far as yesterday, she biked 25-3 = 22 miles today.
+Step 3: The total distance she biked in the two days is 22+12 = 34 miles",
+42,math_015,math,step_deletion,"There are 14 green papayas on the papaya tree.  On Friday, two of the fruits turned yellow.  On Sunday, twice as many fruits as on Friday turn yellow.  How many green papayas are left on the tree?","On Sunday 2 x 2 = 4 papayas turned yellow.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.","On Sunday 2 x 2 = 4 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.",
+43,commonsense_002,commonsense,nonsequitur,What was the reaction when the children were given ice cream?,"Step 1: The question asks for the reaction of children when given ice cream, implying a positive or negative emotional response.
+Step 2: Typically, children associate ice cream with pleasure and happiness, suggesting that their reaction would be positive.
+Step 3: Among the given choices, ""awesome"", ""enjoyed"", and ""sadness"" could potentially describe emotional reactions, but ""sadness"" is unlikely given the context of receiving ice cream.
+Step 4: Between ""awesome and enjoyed"", both could fit, but ""enjoyed"" directly implies taking pleasure in something, which aligns well with the act of eating ice cream.
+Therefore: B","Step 1: The question asks for the reaction of children when given ice cream, implying a positive or negative emotional response.
+Step 2: Typically, children associate ice cream with pleasure and happiness, suggesting that their reaction would be positive.
+Step 3: The color palette of ice cream shops often includes pastel colors, which are known to have a calming effect on people.
+Step 4: Among the given choices, ""awesome"", ""enjoyed"", and ""sadness"" could potentially describe emotional reactions, but ""sadness"" is unlikely given the context of receiving ice cream.
+Step 5: Between ""awesome and enjoyed"", both could fit, but ""enjoyed"" directly implies taking pleasure in something, which aligns well with the act of eating ice cream.
+Therefore: B",
+44,causal_027,causal,logic_error,"With the popularity of mobile devices, mobile phones and tablet computers (PAD) have gradually penetrated into people's lives.Many people have also changed from being inseparable from TVs to being inseparable from mobile phones and PADs.Some people believe that more use of computers It will reduce the time people have a TV.After all, time is limited, but surveys show that the increase in ""time spent on computers"" has not reduced the time spent watching TV.
+
+Question: In order to verify the accuracy of the above findings, which of the following is the most important consideration.","Step 1: The finding in question is that increased computer use has not reduced time spent watching TV, based on survey results.
+Step 2: To verify the accuracy of this finding, it's crucial to consider how computer use time is defined and measured in the survey.
+Step 3: If the survey includes time spent using computers at work as part of ""computer-use time"", this could significantly impact the results, as work-related computer use might not directly compete with TV watching time.
+Step 4: Understanding whether work-related computer use is included in the measurement of computer use time is essential to assess the validity of the conclusion that computer use does not reduce TV watching time.
+Therefore: D","Step 1: The finding in question is that increased computer use has not reduced time spent watching TV, based on survey results.
+Step 2: To verify the accuracy of this finding, it's crucial to consider how computer use time is defined and measured in the survey.
+Step 3: If the survey excludes time spent using computers at work as part of ""computer-use time"", this could significantly impact the results, as personal computer use might directly compete with TV watching time, making the inclusion of work hours unnecessary for the comparison.
+Step 4: Understanding whether personal, non-work-related computer use is the sole focus of the measurement of computer use time is essential to assess the validity of the conclusion that computer use does not reduce TV watching time.
+Therefore: C",
+45,causal_036,causal,logic_error,"Not necessarily any economic development will cause environmental damage, but there cannot be environmental damage that promotes economic development.
+
+Question: Which of the following is the closest to the above determination?","Step 1: The statement suggests that environmental damage is not a prerequisite for economic development, implying that economic development can occur without harming the environment.
+Step 2: It also states that environmental damage cannot promote economic development, meaning that damage to the environment will have a negative impact on economic development.
+Step 3: This indicates a one-way relationship where economic development does not necessarily lead to environmental damage, but environmental damage will always have a negative effect on economic development.
+Step 4: Option B reflects this relationship by stating that some economic development does not necessarily cause environmental damage, and any environmental damage will inevitably hinder economic development, aligning with the given determination.
+Therefore: B","Step 1: The statement suggests that environmental damage is not a prerequisite for economic development, implying that economic development can occur without harming the environment.
+Step 2: It also states that environmental damage cannot promote economic development, meaning that damage to the environment will have a neutral impact on economic development.
+Step 3: This indicates a one-way relationship where economic development does not necessarily lead to environmental damage, but environmental damage will always have a neutral effect on economic development, yet it's reasonable to assume it might hinder it in some cases.
+Step 4: Option D reflects this relationship by stating that some economic development may not cause environmental damage, and any environmental damage may hinder economic development, aligning with the given determination.
+Therefore: D",
+46,causal_009,causal,step_deletion,"When traveling to Russia alone, he found two very strange people while shopping: one digging a pit in front, and the other one filling the excavated soil with a shovel in the back.This person felt strange, so they asked What are they doing? They replied that they were planting trees.This person felt even stranger.The two men explained that the person responsible for planting the sapling was sick and did not come.
+
+Question: What does this passage tell us?","Step 1: The passage describes a situation where two people are performing tasks that seem counterintuitive and unproductive, digging and filling a pit, in the context of planting trees.
+Step 2: The explanation given by the two men is that the person responsible for the actual planting of the sapling is absent due to illness, implying that their tasks are part of a larger process that is currently incomplete.
+Step 3: The scenario highlights the importance of all components of a task being completed for the overall goal to be achieved, in this case, the planting of trees.
+Step 4: The passage indirectly comments on the value of each role in a process and the consequences of any part of the process not being completed, such as the absence of the sapling planter.
+Therefore: B","Step 1: The passage describes a situation where two people are performing tasks that seem counterintuitive and unproductive, digging and filling a pit, in the context of planting trees.
+Step 2: The scenario highlights the importance of all components of a task being completed for the overall goal to be achieved, in this case, the planting of trees.
+Step 3: The passage indirectly comments on the value of each role in a process and the consequences of any part of the process not being completed, such as the absence of the sapling planter.
+Therefore: B",
+47,commonsense_030,commonsense,step_deletion,What can exercising cause?,"Step 1: Exercising is a physical activity that increases the body's energy expenditure and metabolic rate.
+Step 2: When the body's metabolic rate increases, it demands more oxygen to generate energy.
+Step 3: The increased demand for oxygen leads to faster and deeper breathing to take in more oxygen.
+Step 4: If the body's demand for oxygen exceeds the supply, it can lead to a condition where the person feels they cannot breathe enough air.
+Therefore: B","Step 1: Exercising is a physical activity that increases the body's energy expenditure and metabolic rate.
+Step 2: The increased demand for oxygen leads to faster and deeper breathing to take in more oxygen.
+Step 3: If the body's demand for oxygen exceeds the supply, it can lead to a condition where the person feels they cannot breathe enough air.
+Therefore: B",
+48,causal_019,causal,logic_error,".Voice fusion: refers to the phenomenon that the two people's voices that are frequently communicating gradually converge under the condition of complete unconsciousness.
+
+Question: Which of the following are speech fusions?","Step 1: Voice fusion refers to the phenomenon where two people's voices converge when they frequently communicate, under the condition of complete unconsciousness.
+Step 2: This convergence implies a gradual change in one or both individuals' speech patterns, such as accent, tone, or pronunciation, as a result of their interaction.
+Step 3: To qualify as an example of speech fusion, the change in speech pattern should occur without conscious effort or deliberate imitation, as a natural outcome of frequent communication.
+Step 4: Among the given options, we need to identify which scenarios describe a situation where two people's voices or speech patterns converge due to frequent communication, without deliberate effort to imitate each other.
+Step 5: Option B describes Lao Zhang and his wife, who after being married for over ten years, have speech patterns that have become indistinguishable from each other, with his northeast accent almost lost and her Cantonese sounding strange to their daughter, indicating an unconscious convergence of their speech.
+Therefore: B","Step 1: Voice fusion refers to the phenomenon where two people's voices converge when they frequently communicate, under the condition of complete unconsciousness.
+Step 2: This convergence implies a gradual change in one or both individuals' speech patterns, such as accent, tone, or pronunciation, as a result of their interaction.
+Step 3: To qualify as an example of speech fusion, the change in speech pattern should occur without conscious effort or deliberate imitation, but can be influenced by external factors such as media consumption.
+Step 4: Among the given options, we need to identify which scenarios describe a situation where two people's voices or speech patterns converge due to frequent communication or exposure to similar linguistic influences, with or without deliberate effort to imitate each other.
+Step 5: Option D describes Xiao Huang, who after watching local dialect TV programs every day and imitating the announcer's pronunciation, sounded like a native after half a year, indicating a convergence of her speech pattern due to a combination of external influence and frequent exposure.
+Therefore: D",
+49,causal_016,causal,logic_error,"Once consumers realize that inflation has begun, they will generally increase their consumption, and this increase is easily explained by the phenomenon that consumers hope that they will not delay the purchase of products that will definitely increase their prices, although consumers expect that prices will continue to rise Wages will also rise, but consumers will eventually postpone purchases of even daily necessities during long-term inflation.
+
+Question: Which of the following () items, if correct, can best explain the apparent inconsistencies in consumer behavior described above.","Step 1: The question describes an inconsistency in consumer behavior during inflation, where consumers initially increase consumption but eventually postpone purchases.
+Step 2: This inconsistency can be explained by a factor that affects how consumers perceive and respond to inflation over time.
+Step 3: The correct explanation should account for why consumers initially accelerate purchases due to expected price increases, but later reduce consumption despite expecting wages to rise.
+Step 4: The explanation should also consider the impact of inflation on consumer purchasing power and how it changes over time.
+Step 5: Among the given choices, the one that best addresses the change in consumer behavior over the course of inflation is related to the impact of inflation on wages and purchasing power.
+Therefore: D","Step 1: The question describes an inconsistency in consumer behavior during inflation, where consumers initially increase consumption but eventually postpone purchases.
+Step 2: This inconsistency can be explained by a factor that affects how consumers perceive and respond to inflation over time.
+Step 3: The correct explanation should account for why consumers initially accelerate purchases due to expected price increases, but later reduce consumption because they believe wages will rise faster than prices.
+Step 4: The explanation should also consider the impact of inflation on consumer purchasing power and how it changes over time, assuming that wages keep pace with or exceed price increases.
+Step 5: Among the given choices, the one that best addresses the change in consumer behavior over the course of inflation is related to the idea that consumers save more during inflation, expecting higher future wages.
+Therefore: A",
+50,commonsense_042,commonsense,nonsequitur,"If I need to use a paper clip to hold medical papers together, where would I be?","Step 1: The task involves using a paper clip for a specific purpose, which is to hold medical papers together.
+Step 2: Medical papers are typically associated with healthcare environments where medical records and documents are commonly used.
+Step 3: Among the given options, the one that is most closely related to a healthcare environment where medical papers would need to be held together is a hospital.
+Therefore: D","Step 1: The task involves using a paper clip for a specific purpose, which is to hold medical papers together.
+Step 2: Medical papers are typically associated with healthcare environments where medical records and documents are commonly used.
+Step 3: The color of the paper clip is often silver, which is a popular choice for office supplies due to its durability and resistance to corrosion.
+Step 4: Among the given options, the one that is most closely related to a healthcare environment where medical papers would need to be held together is a hospital.
+Therefore: D",
+51,commonsense_026,commonsense,nonsequitur,Where would a person put an automobile when not using it?,"Step 1: A person needs a safe and secure place to store their automobile when not in use.
+Step 2: This place should protect the vehicle from environmental factors like weather and potential damage.
+Step 3: It should also be a designated area for parking to avoid obstructing traffic or violating regulations.
+Step 4: Among the given options, a garage is specifically designed for storing vehicles, providing the necessary safety and security.
+Therefore: A","Step 1: A person needs a safe and secure place to store their automobile when not in use.
+Step 2: This place should protect the vehicle from environmental factors like weather and potential damage.
+Step 3: The color of the automobile can affect its resale value, with some colors being more popular than others.
+Step 4: It should also be a designated area for parking to avoid obstructing traffic or violating regulations.
+Step 5: Among the given options, a garage is specifically designed for storing vehicles, providing the necessary safety and security.
+Therefore: A",
+52,commonsense_013,commonsense,nonsequitur,What city is known for having a nightclub scene?,"Step 1: The question asks for a city known for its nightclub scene, indicating a need to identify a specific urban location.
+Step 2: Among the given choices, ""new-york"" and ""manhattan"" are both related to New York City, which is renowned for its vibrant nightlife.
+Step 3: Manhattan is a part of New York City and is particularly famous for its nightlife, including numerous nightclubs.
+Step 4: While ""new-york"" could refer to the broader metropolitan area, ""manhattan"" more specifically denotes the area most associated with the city's nightlife.
+Therefore: C","Step 1: The question asks for a city known for its nightclub scene, indicating a need to identify a specific urban location.
+Step 2: Among the given choices, ""new-york"" and ""manhattan"" are both related to New York City, which is renowned for its vibrant nightlife.
+Step 3: The concept of urban planning and architecture plays a significant role in shaping the cultural identity of cities, including the design of public spaces and buildings.
+Step 4: Manhattan is a part of New York City and is particularly famous for its nightlife, including numerous nightclubs.
+Step 5: While ""new-york"" could refer to the broader metropolitan area, ""manhattan"" more specifically denotes the area most associated with the city's nightlife.
+Therefore: C",
+53,math_046,math,logic_error,"Chris has twelve marbles, and Ryan has twenty-eight marbles. If they put marbles together in a pile and then each takes away 1/4 of marbles from the pile, calculate the number of marbles remaining in the pile.","If Chris and Ryan put together their marbles in a pile, the pile will have 12+28 = 40 marbles.
+If they then take 1/4 of the marbles each, every person will receive 1/4*40 = 10 marbles.
+Both of them will have taken a total of 10+10 = 20 marbles.
+The number of marbles remaining in the pile is 40-20 = 20","Step 1: If Chris and Ryan put together their marbles in a pile, the pile will have 12+28 = 40 marbles.
+Step 2: If they then take 1/4 of the marbles each, every person will receive 1/4*40 = 12 marbles.
+Step 3: Both of them will have taken a total of 12+12 = 24 marbles.
+Step 4: The number of marbles remaining in the pile is 40-24 = 16",
+54,commonsense_012,commonsense,step_deletion,What do you need to do on your face to watch film?,"Step 1: To watch a film, one must be able to perceive visual content.
+Step 2: The primary organs for perceiving visual content are the eyes.
+Step 3: For the eyes to function and allow a person to see, they must be open.
+Step 4: Opening the eyes is a necessary action on the face to enable viewing.
+Therefore: A","Step 1: The primary organs for perceiving visual content are the eyes.
+Step 2: For the eyes to function and allow a person to see, they must be open.
+Step 3: Opening the eyes is a necessary action on the face to enable viewing.
+Therefore: A",
+55,math_020,math,conclusion_swap,"There were 80 people at a football game on Saturday. On Monday, 20 fewer people were at the football game. On Wednesday, 50 more people were at the game than on Monday. On Friday, there were the same number of people as on Saturday and Monday combined. If their expected total audience at the football game for a week is 350, how many more people attended the games than they had expected?","On Monday, 80 - 20 = 60 people attended the game.
+On Wednesday, 60 + 50 = 110 people attended the game.
+On Friday, 80 + 60 = 140 people attended the game.
+A total of 80 + 60 + 110 + 140 = 390 people attended the games in a week.
+Therefore, 390 - 350 = 40 people more attended the games than they had expected.","On Monday, 80 - 20 = 60 people attended the game.
+On Wednesday, 60 + 50 = 110 people attended the game.
+On Friday, 80 + 60 = 140 people attended the game.
+A total of 80 + 60 + 110 + 140 = 390 people attended the games in a week.
+Therefore, 390 - 350 = 50 people more attended the games than they had expected.",
+56,commonsense_026,commonsense,conclusion_swap,Where would a person put an automobile when not using it?,"Step 1: A person needs a safe and secure place to store their automobile when not in use.
+Step 2: This place should protect the vehicle from environmental factors like weather and potential damage.
+Step 3: It should also be a designated area for parking to avoid obstructing traffic or violating regulations.
+Step 4: Among the given options, a garage is specifically designed for storing vehicles, providing the necessary safety and security.
+Therefore: A","Step 1: A person needs a safe and secure place to store their automobile when not in use.
+Step 2: This place should protect the vehicle from environmental factors like weather and potential damage.
+Step 3: It should also be a designated area for parking to avoid obstructing traffic or violating regulations.
+Step 4: Among the given options, a garage is specifically designed for storing vehicles, providing the necessary safety and security.
+Therefore: D",
+57,causal_034,causal,step_deletion,"A TV station in a city launched a health program for elderly viewers.During the trial broadcast, many elderly people watched it and received unanimous praise, but after the official broadcast, the ratings were very unsatisfactory.
+
+Question: Which of the following can best explain the above contradiction?","Step 1: The health program received unanimous praise from elderly viewers during its trial broadcast, indicating the content was well-received.
+Step 2: Despite the positive feedback, the official broadcast had very unsatisfactory ratings, suggesting a significant drop in viewership.
+Step 3: The change in viewership cannot be attributed to the content, as it was praised initially, so the issue likely lies with the timing or scheduling of the program.
+Step 4: If the program aired at a time when most elderly people were already resting or asleep, it would explain the low ratings, as the target audience would not be awake to watch it.
+Therefore: D","Step 1: The health program received unanimous praise from elderly viewers during its trial broadcast, indicating the content was well-received.
+Step 2: Despite the positive feedback, the official broadcast had very unsatisfactory ratings, suggesting a significant drop in viewership.
+Step 3: If the program aired at a time when most elderly people were already resting or asleep, it would explain the low ratings, as the target audience would not be awake to watch it.
+Therefore: D",
+58,causal_026,causal,nonsequitur,"Occupation socialization: refers to the process by which individuals choose occupations according to social needs, master the knowledge and skills to engage in a certain occupation, or update knowledge and retrain skills after engaging in a certain occupation.
+
+Question: Which of the following is professional socialization?","Step 1: Occupation socialization refers to the process of choosing, mastering, and updating knowledge and skills for a specific occupation based on social needs.
+Step 2: Professional socialization is a type of occupation socialization that involves acquiring and updating knowledge and skills specifically for a profession or career.
+Step 3: Among the given choices, we need to identify a scenario where an individual acquires or updates professional knowledge and skills to engage in a specific occupation or career.
+Step 4: Choice A describes Xiao Zhang obtaining a translation qualification to switch careers, which aligns with acquiring new skills for a profession.
+Step 5: This process of obtaining new qualifications for a career change reflects the concept of professional socialization, as it involves mastering new knowledge and skills for a specific occupation.
+Therefore: A","Step 1: Occupation socialization refers to the process of choosing, mastering, and updating knowledge and skills for a specific occupation based on social needs.
+Step 2: Professional socialization is a type of occupation socialization that involves acquiring and updating knowledge and skills specifically for a profession or career.
+Step 3: The importance of coffee breaks in the workplace can boost morale and increase productivity among employees, leading to a more positive work environment.
+Step 4: Among the given choices, we need to identify a scenario where an individual acquires or updates professional knowledge and skills to engage in a specific occupation or career.
+Step 5: Choice A describes Xiao Zhang obtaining a translation qualification to switch careers, which aligns with acquiring new skills for a profession.
+Step 6: This process of obtaining new qualifications for a career change reflects the concept of professional socialization, as it involves mastering new knowledge and skills for a specific occupation.
+Therefore: A",
+59,commonsense_037,commonsense,conclusion_swap,"Johnny saw a person with torn pants it work.  He thought the person was silly, and he should have done what?","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation.
+Step 4: A common way to avoid torn pants is to wear more durable or protective clothing, such as jeans, which are known for their strength and resistance to tears.
+Therefore: A","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation.
+Step 4: A common way to avoid torn pants is to wear more durable or protective clothing, such as jeans, which are known for their strength and resistance to tears.
+Therefore: E",
+60,causal_014,causal,conclusion_swap,"Leaking behavior: Refers to violations of confidentiality codes and laws, and publicly disclose or disclose state secrets to those who should not be known within the time limit of confidentiality, thereby causing damage to national security and interests.
+
+Question: Which of the following is not a leak?","Step 1: Leaking behavior involves the unauthorized disclosure of confidential information, such as state secrets, to individuals who should not have access to it.
+Step 2: This disclosure can be intentional, such as selling sensitive information to unauthorized parties, or unintentional, such as leaving sensitive documents unsecured.
+Step 3: The key factor in determining a leak is whether confidential information is actually disclosed to unauthorized individuals, potentially causing harm to national security or interests.
+Step 4: Option C describes a situation where a person talks about a national top-secret document in a dormitory but no one hears, meaning no actual disclosure of confidential information occurs.
+Therefore: C","Step 1: Leaking behavior involves the unauthorized disclosure of confidential information, such as state secrets, to individuals who should not have access to it.
+Step 2: This disclosure can be intentional, such as selling sensitive information to unauthorized parties, or unintentional, such as leaving sensitive documents unsecured.
+Step 3: The key factor in determining a leak is whether confidential information is actually disclosed to unauthorized individuals, potentially causing harm to national security or interests.
+Step 4: Option C describes a situation where a person talks about a national top-secret document in a dormitory but no one hears, meaning no actual disclosure of confidential information occurs.
+Therefore: B",
+61,commonsense_023,commonsense,nonsequitur,Eating breakfast of garlic might lead to some what?,"Step 1: Garlic is known for its strong and pungent flavor and smell.
+Step 2: When consumed, the compounds in garlic are absorbed into the bloodstream and then released through the lungs and skin.
+Step 3: This release of compounds through the lungs can lead to an unpleasant odor on the breath.
+Step 4: The smell of garlic on the breath can persist for several hours after consumption, depending on the amount eaten and individual metabolism.
+Therefore: B","Step 1: Garlic is known for its strong and pungent flavor and smell.
+Step 2: When consumed, the compounds in garlic are absorbed into the bloodstream and then released through the lungs and skin.
+Step 3: The color of the kitchen walls can greatly influence the ambiance of the dining experience.
+Step 4: This release of compounds through the lungs can lead to an unpleasant odor on the breath.
+Step 5: The smell of garlic on the breath can persist for several hours after consumption, depending on the amount eaten and individual metabolism.
+Therefore: B",
+62,causal_048,causal,conclusion_swap,"""Blacklist"" of credit quality: refers to the disclosure of certain individuals or units' violations of laws and regulations in economic activities within a certain range through certain information systems.Management tools.
+
+Question: Which of the following does not meet the above definition:","Step 1: The definition of a ""blacklist"" in the context of credit quality refers to the disclosure of certain individuals or units' violations of laws and regulations in economic activities.
+Step 2: This disclosure is done through certain information systems or management tools to alert others about potential credit risks.
+Step 3: Options A, C, and D all involve the use of lists, databases, or files to track and manage credit information of individuals or units that have violated laws or regulations.
+Step 4: Option B, however, describes a situation where a passenger received an incorrect receipt, which does not involve the disclosure of violations of laws and regulations in economic activities through information systems or management tools.
+Step 5: Therefore, option B does not align with the definition provided, as it lacks the elements of disclosure and management of credit violations.
+Therefore: B","Step 1: The definition of a ""blacklist"" in the context of credit quality refers to the disclosure of certain individuals or units' violations of laws and regulations in economic activities.
+Step 2: This disclosure is done through certain information systems or management tools to alert others about potential credit risks.
+Step 3: Options A, C, and D all involve the use of lists, databases, or files to track and manage credit information of individuals or units that have violated laws or regulations.
+Step 4: Option B, however, describes a situation where a passenger received an incorrect receipt, which does not involve the disclosure of violations of laws and regulations in economic activities through information systems or management tools.
+Step 5: Therefore, option B does not align with the definition provided, as it lacks the elements of disclosure and management of credit violations.
+Therefore: D",
+63,causal_041,causal,step_deletion,"Only by grasping the construction of basic education can we raise our education level to a higher level.In order to stand in the forest of the world's great powers, we must have an excellent education level.
+
+Question: This shows:","Step 1: The statement emphasizes the importance of understanding the foundation of basic education to improve overall education levels.
+Step 2: It suggests that having a strong educational foundation is crucial for competing among the world's great powers.
+Step 3: The phrase ""construction of basic education"" implies that the foundation or base of the education system needs to be solid and well-understood.
+Step 4: This understanding is necessary for advancement, indicating that basic education is the starting point for achieving higher levels of educational excellence.
+Therefore: B","Step 1: The statement emphasizes the importance of understanding the foundation of basic education to improve overall education levels.
+Step 2: It suggests that having a strong educational foundation is crucial for competing among the world's great powers.
+Step 3: This understanding is necessary for advancement, indicating that basic education is the starting point for achieving higher levels of educational excellence.
+Therefore: B",
+64,causal_031,causal,logic_error,"For infants with cerebral palsy, crawling is difficult.These children have damaged brains and have less control over their muscles, so they often cannot crawl on the ground.Correspondingly, motor skills and spatial positioning are related.The development of neural connections will also be stagnated, which will cause patients to experience more sports-related problems in the future.Some research teams have developed a new device designed to help infants crawl.With the help of machines, Corresponding nerves in infants with suspected cerebral palsy are exercised to learn to crawl earlier and further.
+
+Question: This text is intended to illustrate?","Step 1: The text discusses the challenges faced by infants with cerebral palsy, specifically their difficulty with crawling due to damaged brains and reduced muscle control.
+Step 2: It highlights the impact of this condition on motor skills and spatial positioning, as well as the potential long-term effects on sports-related abilities.
+Step 3: The introduction of a new device designed to help these infants crawl suggests a focus on finding solutions to these challenges.
+Step 4: The device's purpose is to exercise the corresponding nerves in infants with suspected cerebral palsy, aiming to facilitate earlier crawling and development.
+Therefore: C","Step 1: The text discusses the challenges faced by infants with cerebral palsy, specifically their difficulty with crawling due to damaged brains and reduced muscle control.
+Step 2: It highlights the impact of this condition on motor skills and spatial positioning, as well as the potential long-term effects on cognitive abilities.
+Step 3: The introduction of a new device designed to help these infants crawl suggests a focus on finding solutions to these challenges, potentially improving their overall quality of life.
+Step 4: The device's purpose is to exercise the corresponding nerves in infants with suspected cerebral palsy, aiming to facilitate earlier crawling and development, which could lead to better motion control in the future.
+Therefore: B",
+65,causal_046,causal,step_deletion,"66 Perceived defense: refers to a way of thinking that people protect themselves.This tendency makes it easier for people to pay attention to those things that can meet their needs, and to ignore those things that have nothing to do with their needs and not hear them.
+
+Question: According to the above definitions, Which of the following are not perceptual defenses:","Step 1: Perceptual defense refers to a way of thinking that people protect themselves by focusing on things that meet their needs and ignoring things that don't.
+Step 2: This concept involves selectively paying attention to certain information and filtering out other information based on personal needs or desires.
+Step 3: The given options A, B, C, and D seem to describe various scenarios or phrases that may or may not relate to this concept of selective attention based on needs.
+Step 4: Options B, C, and D describe scenarios where individuals appear to be focused on specific tasks or activities, potentially indicating a form of selective attention, but they do not clearly illustrate the concept of ignoring information not relevant to their needs.
+Step 5: Option A, ""Worry and worry before the world, joy and happiness after the world,"" suggests a mindset that changes based on external circumstances, which could imply a form of emotional or psychological adjustment rather than a defensive mechanism of selectively ignoring information.
+Therefore: A","Step 1: Perceptual defense refers to a way of thinking that people protect themselves by focusing on things that meet their needs and ignoring things that don't.
+Step 2: The given options A, B, C, and D seem to describe various scenarios or phrases that may or may not relate to this concept of selective attention based on needs.
+Step 3: Options B, C, and D describe scenarios where individuals appear to be focused on specific tasks or activities, potentially indicating a form of selective attention, but they do not clearly illustrate the concept of ignoring information not relevant to their needs.
+Step 4: Option A, ""Worry and worry before the world, joy and happiness after the world,"" suggests a mindset that changes based on external circumstances, which could imply a form of emotional or psychological adjustment rather than a defensive mechanism of selectively ignoring information.
+Therefore: A",
+66,math_042,math,logic_error,"After Bella’s ballet performance, she received 2 dozen roses from her parents, and 2 roses from each of her 10 dancer friends.  How many roses did Bella receive?","Bella receives 2 x 12 = 24 roses from her parents.
+She receives 2 x 10 = 20 roses from her friends.
+She receives a total of 24 + 20 = 44 roses.","Step 1: Bella receives 2 x 12 = 24 roses from her parents.
+Step 2: She receives 2 x 10 = 25 roses from her friends.
+Step 3: She receives a total of 24 + 25 = 49 roses.",
+67,commonsense_037,commonsense,nonsequitur,"Johnny saw a person with torn pants it work.  He thought the person was silly, and he should have done what?","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation.
+Step 4: A common way to avoid torn pants is to wear more durable or protective clothing, such as jeans, which are known for their strength and resistance to tears.
+Therefore: A","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: The office where Johnny works has a coffee machine that is often used by employees to take short breaks.
+Step 4: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation.
+Step 5: A common way to avoid torn pants is to wear more durable or protective clothing, such as jeans, which are known for their strength and resistance to tears.
+Therefore: A",
+68,math_038,math,conclusion_swap,"Martin went to a store to buy a new television set. He decided to spend no more than $1,000 and the sales clerk offered him the TV for $100 less and an additional 20% off. How much lower was the price of the television than the amount Martin decided to spend?","The seller has offered him the TV for 1000 - 100 = $900.
+The discount on the television was 900 * 20/100 = $180.
+The final price of the television is therefore 900 - 180 = $720.
+Martin was able to save 1000 - 720 = $280.","The seller has offered him the TV for 1000 - 100 = $900.
+The discount on the television was 900 * 20/100 = $180.
+The final price of the television is therefore 900 - 180 = $720.
+Martin was able to save 1000 - 720 = $290",
+69,causal_025,causal,logic_error,"Cognitive dissonance is a state of conflict experienced by a person after making a decision, taking action, or coming into contact with beliefs that violate their original beliefs, emotions, or values.When people feel cognitive dissonance, an uncoordinated presence will promote People try to reduce inconsistencies.In addition to trying to adjust their behaviors or changing their attitudes, people can also actively avoid domestic and foreign factors and information factors that are likely to increase disharmony.
+
+Question: Based on the above definitions, Which of the following reflects cognitive dissonance:","Step 1: Cognitive dissonance occurs when a person's beliefs, emotions, or values are violated, leading to a state of conflict or discomfort.
+Step 2: This discomfort motivates the person to reduce the inconsistency, either by changing their attitudes, behaviors, or avoiding information that increases the dissonance.
+Step 3: The correct answer should reflect a situation where a person experiences discomfort or conflict due to a discrepancy between their beliefs, emotions, or values, and their actions or decisions.
+Step 4: Option B describes a situation where Xiaohong initially felt conflicted about buying kitchenware she didn't need, but later changed her attitude to like it, which is a classic example of reducing cognitive dissonance.
+Therefore: B","Step 1: Cognitive dissonance occurs when a person's beliefs, emotions, or values are violated, leading to a state of conflict or discomfort.
+Step 2: This discomfort motivates the person to reduce the inconsistency, either by changing their attitudes, behaviors, or avoiding information that increases the dissonance.
+Step 3: The correct answer should reflect a situation where a person experiences discomfort or conflict due to a discrepancy between their expected outcomes and actual outcomes, regardless of their initial beliefs or emotions.
+Step 4: Option A describes a situation where Xiaoming participated in a boring activity for little compensation, which could lead to a feeling of regret or dissatisfaction, thus reflecting a form of cognitive dissonance.
+Therefore: A",
+70,causal_007,causal,conclusion_swap,"Although ""new retail"" has become the hottest concept at the moment, there is actually no accurate definition of what is new retail.The professional saying is ""reconstruction of people, goods, and the Internet and big data"", popularly The understanding is probably the combination of online and offline, and then supplemented by technical means such as artificial intelligence, big data, cloud computing, etc., to achieve a comprehensive upgrade of the traditional retail industry's production and sales.
+
+Question: What can be said from the original text?","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: The general understanding of new retail involves combining online and offline elements, enhanced by technologies like artificial intelligence and big data.
+Step 4: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes.
+Step 5: By integrating online and offline channels, new retail can potentially address limitations of traditional retail, such as the constraints of a single offline sales channel.
+Therefore: B","Step 1: The concept of ""new retail"" is currently popular but lacks a precise definition.
+Step 2: Professionals describe new retail as the reconstruction of people, goods, and the Internet, incorporating big data.
+Step 3: The general understanding of new retail involves combining online and offline elements, enhanced by technologies like artificial intelligence and big data.
+Step 4: This combination aims to achieve a comprehensive upgrade of the traditional retail industry's production and sales processes.
+Step 5: By integrating online and offline channels, new retail can potentially address limitations of traditional retail, such as the constraints of a single offline sales channel.
+Therefore: D",
+71,math_010,math,logic_error,"Thomas, Toby, and Rebecca worked a total of 157 hours in one week.  Thomas worked x hours.  Toby worked 10 hours less than twice what Thomas worked, and Rebecca worked 8 hours less than Toby.  How many hours did Rebecca work?","Toby: 2x-10
+Rebecca: (2x-10)-8=2x-18
+Total:2x-10+2x-18+x=157
+5x-28=157
+5x=185
+x=37 hours
+Rebecca:2(37)-18=56 hours","Step 1: Toby: 2x-10
+Step 2: Rebecca: (2x-10)-8=2x-18
+Step 3: Total:2x-10+2x-18+x=157
+Step 4: 5x-28=157
+Step 5: 5x=180
+Step 6: x=36 hours
+Step 7: Rebecca:2(36)-18=54 hours",
+72,math_019,math,conclusion_swap,Melony makes $21 of profit every time she sells 3 shirts and four times as much profit when she sells two pairs of sandals. How much profit will she make if she sells 7 shirts and 3 pairs of sandals?,"Melony makes $21 * 4 = $84 of profit for two pairs of sandals.
+Melony makes $84 / 2 pairs = $42 of profit per pair of shoes.
+Melony makes $21 / 3 shirts = $7 of profit per shirt.
+For seven shirts, Melony will make 7 shirts * $7 = $49 of profit.
+For three pairs of sandals, Melony will make 3 pairs * $42/pair = $126 of profit.
+Melony will make a total of $49 + $126 = $175 of profit.","Melony makes $21 * 4 = $84 of profit for two pairs of sandals.
+Melony makes $84 / 2 pairs = $42 of profit per pair of shoes.
+Melony makes $21 / 3 shirts = $7 of profit per shirt.
+For seven shirts, Melony will make 7 shirts * $7 = $49 of profit.
+For three pairs of sandals, Melony will make 3 pairs * $42/pair = $126 of profit.
+Melony will make a total of $49 + $126 = $165 of profit.",
+73,causal_038,causal,logic_error,"Some species of dolphins use echolocation to find prey: they emit ticking sounds and then receive echoes from distant objects in the water.Marine biologists speculate that these ticks may have another effect: Dolphins use unusually high-frequency ticks The sound overloads the prey's senses, thereby stunning the prey at close range.
+
+Question: Which of the following, if true, would most challenge the above speculation?","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: For this speculation to be true, the prey must be able to sense the ticking sounds emitted by the dolphins.
+Step 3: If the prey cannot sense the ticking sounds, then the speculation that the sounds stun the prey is challenged.
+Step 4: Option B states that the ticking sound of the dolphin cannot be sensed by the prey's senses, which directly contradicts the premise of the speculation.
+Therefore: B","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: For this speculation to be true, the prey must be able to sense the ticking sounds emitted by the dolphins, but only if the sound is of a frequency that the prey can perceive.
+Step 3: If the prey can sense the ticking sounds but they are not of a stunning frequency, then the speculation that the sounds stun the prey is still plausible because the prey might be affected in other ways.
+Step 4: Option A states that dolphins use echolocation for mid-range prey as well, which implies the ticks could still be effective for stunning at various distances, thus supporting the speculation.
+Therefore: A",
+74,commonsense_037,commonsense,logic_error,"Johnny saw a person with torn pants it work.  He thought the person was silly, and he should have done what?","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation.
+Step 4: A common way to avoid torn pants is to wear more durable or protective clothing, such as jeans, which are known for their strength and resistance to tears.
+Therefore: A","Step 1: Johnny saw a person with torn pants at work, which implies the person's pants were damaged.
+Step 2: The context suggests that the torn pants were likely a result of an accident or an unforeseen event, such as a tear from a sharp object.
+Step 3: Given that Johnny thought the person was silly, it implies he believed the person could have avoided the situation by being more careful where they walked.
+Step 4: A common way to avoid accidents that could lead to torn pants is to change one's route or mode of transportation, such as taking the bus, which would reduce exposure to potential hazards.
+Therefore: B",
+75,commonsense_039,commonsense,nonsequitur,Joe likes horses.  He likes how they move.  Unfortunately he can't keep them because he can't provide for them.  What is one thing that horses need to do to live?,"Step 1: Joe likes horses and their movement, but he cannot keep them due to his inability to provide for their needs.
+Step 2: Providing for horses involves meeting their basic requirements for survival, such as food, water, and space.
+Step 3: Among the options given, drinking water is a fundamental necessity for horses, as it is for all living creatures, to sustain their bodily functions.
+Step 4: While space (A) is also crucial for horses to move around, and canter (C) and trot (D) are forms of movement, and carrying riders (E) is a function they can perform, these are not as universally essential for their survival as drinking water.
+Therefore: B","Step 1: Joe likes horses and their movement, but he cannot keep them due to his inability to provide for their needs.
+Step 2: Providing for horses involves meeting their basic requirements for survival, such as food, water, and space.
+Step 3: The color of a horse's coat can vary greatly, including bay, chestnut, and grey, which are all attractive to horse enthusiasts.
+Step 4: Among the options given, drinking water is a fundamental necessity for horses, as it is for all living creatures, to sustain their bodily functions.
+Step 5: While space (A) is also crucial for horses to move around, and canter (C) and trot (D) are forms of movement, and carrying riders (E) is a function they can perform, these are not as universally essential for their survival as drinking water.
+Therefore: B",
+76,causal_038,causal,conclusion_swap,"Some species of dolphins use echolocation to find prey: they emit ticking sounds and then receive echoes from distant objects in the water.Marine biologists speculate that these ticks may have another effect: Dolphins use unusually high-frequency ticks The sound overloads the prey's senses, thereby stunning the prey at close range.
+
+Question: Which of the following, if true, would most challenge the above speculation?","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: For this speculation to be true, the prey must be able to sense the ticking sounds emitted by the dolphins.
+Step 3: If the prey cannot sense the ticking sounds, then the speculation that the sounds stun the prey is challenged.
+Step 4: Option B states that the ticking sound of the dolphin cannot be sensed by the prey's senses, which directly contradicts the premise of the speculation.
+Therefore: B","Step 1: The speculation suggests that dolphins' high-frequency ticks can stun prey at close range by overloading their senses.
+Step 2: For this speculation to be true, the prey must be able to sense the ticking sounds emitted by the dolphins.
+Step 3: If the prey cannot sense the ticking sounds, then the speculation that the sounds stun the prey is challenged.
+Step 4: Option B states that the ticking sound of the dolphin cannot be sensed by the prey's senses, which directly contradicts the premise of the speculation.
+Therefore: D",
+77,causal_016,causal,conclusion_swap,"Once consumers realize that inflation has begun, they will generally increase their consumption, and this increase is easily explained by the phenomenon that consumers hope that they will not delay the purchase of products that will definitely increase their prices, although consumers expect that prices will continue to rise Wages will also rise, but consumers will eventually postpone purchases of even daily necessities during long-term inflation.
+
+Question: Which of the following () items, if correct, can best explain the apparent inconsistencies in consumer behavior described above.","Step 1: The question describes an inconsistency in consumer behavior during inflation, where consumers initially increase consumption but eventually postpone purchases.
+Step 2: This inconsistency can be explained by a factor that affects how consumers perceive and respond to inflation over time.
+Step 3: The correct explanation should account for why consumers initially accelerate purchases due to expected price increases, but later reduce consumption despite expecting wages to rise.
+Step 4: The explanation should also consider the impact of inflation on consumer purchasing power and how it changes over time.
+Step 5: Among the given choices, the one that best addresses the change in consumer behavior over the course of inflation is related to the impact of inflation on wages and purchasing power.
+Therefore: D","Step 1: The question describes an inconsistency in consumer behavior during inflation, where consumers initially increase consumption but eventually postpone purchases.
+Step 2: This inconsistency can be explained by a factor that affects how consumers perceive and respond to inflation over time.
+Step 3: The correct explanation should account for why consumers initially accelerate purchases due to expected price increases, but later reduce consumption despite expecting wages to rise.
+Step 4: The explanation should also consider the impact of inflation on consumer purchasing power and how it changes over time.
+Step 5: Among the given choices, the one that best addresses the change in consumer behavior over the course of inflation is related to the impact of inflation on wages and purchasing power.
+Therefore: C",
+78,math_017,math,nonsequitur,"Meghan had money in the following denomination: 2 $100 bills, 5 $50 bills, and 10 $10 bills. How much money did he have altogether?","Total value of $100 bills is 2 × $100 = $200
+Total value of $50 bills is 5 × $50 = $250
+Total value of $10 bills is 10 × $10 = $100
+Final total value is $200 + $250 + $100 = $550","Total value of $100 bills is 2 × $100 = $200
+Total value of $50 bills is 5 × $50 = $250
+The color of the bills does not affect their monetary value.
+Total value of $10 bills is 10 × $10 = $100
+Final total value is $200 + $250 + $100 = $550",
+79,math_023,math,conclusion_swap,Kantana loves chocolate. Every Saturday she goes to the candy store and buys 2 chocolates for herself and 1 for her sister. This last Saturday she picked up an additional 10 chocolates as a birthday gift for her friend Charlie. How many chocolates did Kantana end up buying for the month?,"There is 1 Saturday in a week and there are 4 weeks in a month so there are 1 * 4= 4 Saturdays in a month (on average)
+If Kantana buys herself 2 chocolates every Saturday then this means she buys 2 * 4=8 chocolates for herself for the month.
+Kantana also buys her sister 1 chocolate on these trips so she is picking up an additional 1* 4=4 additional chocolates for her sister for the month.
+Kantana decided to also purchase some chocolates for her friend Charlie for his birthday. She bought Charlie 10 chocolates. This means that for the month she bought 10 chocolates for Charlie, 4 chocolates for her sister, and 8 chocolates for herself, 10+4+8= 22 chocolates bought in total for the month.","There is 1 Saturday in a week and there are 4 weeks in a month so there are 1 * 4= 4 Saturdays in a month (on average)
+If Kantana buys herself 2 chocolates every Saturday then this means she buys 2 * 4=8 chocolates for herself for the month.
+Kantana also buys her sister 1 chocolate on these trips so she is picking up an additional 1* 4=4 additional chocolates for her sister for the month.
+Kantana decided to also purchase some chocolates for her friend Charlie for his birthday. She bought Charlie 10 chocolates. This means that for the month she bought 10 chocolates for Charlie, 4 chocolates for her sister, and 8 chocolates for herself, 10+4+8= 12 chocolates bought in total for the month.",
+80,commonsense_019,commonsense,logic_error,Where would you find food packaged in MRE's?,"Step 1: MRE stands for Meal, Ready-to-Eat, which is a type of pre-cooked, pre-packaged meal.
+Step 2: MREs are designed to be lightweight, compact, and have a long shelf life, making them ideal for use in the field.
+Step 3: The military is a primary user of MREs due to their convenience and durability in various environments.
+Step 4: Military personnel often consume MREs during training exercises, deployments, and other situations where access to traditional food sources is limited.
+Therefore: E","Step 1: MRE stands for Meal, Ready-to-Eat, which is a type of pre-cooked, pre-packaged meal.
+Step 2: MREs are designed to be lightweight, compact, and have a long shelf life, making them ideal for use in the field.
+Step 3: The military is a secondary user of MREs, with the primary users being outdoor enthusiasts such as campers and hikers.
+Step 4: As a result, MREs are commonly found in locations where outdoor activities are popular, such as picnic areas.
+Therefore: B",
+81,causal_021,causal,step_deletion,"π-type talents refer to compound talents who have at least two types of professional skills and can integrate multiple knowledge.The two vertical columns below π refer to two types of professional skills, and the upper one refers to the integration of multiple knowledge.
+
+Question: Which of the following are π talents?","Step 1: π-type talents are defined as individuals with at least two types of professional skills who can integrate multiple knowledge.
+Step 2: To qualify as a π talent, a person must have a combination of professional skills and the ability to integrate knowledge from different areas.
+Step 3: We need to examine each option to see if it meets the criteria of having at least two distinct professional skills and the ability to integrate multiple knowledge areas.
+Step 4: Option A, Mr. A. Zhuang, has two doctorate degrees in science and management, indicating he has multiple professional skills and likely integrates knowledge from both fields in his role as a boss of a high-tech company.
+Step 5: Options B, C, and D, while showcasing individuals with multiple skills or hobbies, do not clearly demonstrate the integration of multiple professional skills and knowledge in the way Mr. A. Zhuang does.
+Therefore: A","Step 1: π-type talents are defined as individuals with at least two types of professional skills who can integrate multiple knowledge.
+Step 2: To qualify as a π talent, a person must have a combination of professional skills and the ability to integrate knowledge from different areas.
+Step 3: Option A, Mr. A. Zhuang, has two doctorate degrees in science and management, indicating he has multiple professional skills and likely integrates knowledge from both fields in his role as a boss of a high-tech company.
+Step 4: Options B, C, and D, while showcasing individuals with multiple skills or hobbies, do not clearly demonstrate the integration of multiple professional skills and knowledge in the way Mr. A. Zhuang does.
+Therefore: A",
+82,math_016,math,nonsequitur,"Amy biked 12 miles yesterday. If she biked 3 miles less than twice as far as yesterday, how many miles did she bike in total in the two days?","Twice the distance Amy biked yesterday is 12*2 = 24 miles
+If Amy biked 3 miles less than twice as far as yesterday, she biked 24-3 = 21 miles today.
+The total distance she biked in the two days is 21+12 = 33 miles","Step 1: Twice the distance Amy biked yesterday is 12*2 = 24 miles
+Step 2: The weather forecast for the next week indicates a high chance of sunny skies.
+Step 3: If Amy biked 3 miles less than twice as far as yesterday, she biked 24-3 = 21 miles today.
+Step 4: The total distance she biked in the two days is 21+12 = 33 miles",
+83,math_015,math,nonsequitur,"There are 14 green papayas on the papaya tree.  On Friday, two of the fruits turned yellow.  On Sunday, twice as many fruits as on Friday turn yellow.  How many green papayas are left on the tree?","On Sunday 2 x 2 = 4 papayas turned yellow.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.","On Sunday 2 x 2 = 4 papayas turned yellow.
+The farmer who owns the tree has a favorite yellow shirt.
+A total of 2 + 4 = 6 papayas turned yellow.
+There are 14 - 6 = 8 green papayas still left on the tree.",
+84,commonsense_029,commonsense,step_deletion,"The judge had ruled the murder case could be reopened, excavation soon began where?","Step 1: The question mentions a murder case being reopened, which implies a crime scene investigation.
+Step 2: Excavation is often required in such investigations to uncover evidence, such as a buried body.
+Step 3: Given the context of a murder case and the need for excavation, the most likely location for this activity would be where the body or evidence is believed to be buried.
+Step 4: Among the provided options, the one that directly relates to a place where bodies are typically buried is the most plausible location for the excavation.
+Therefore: E","Step 1: The question mentions a murder case being reopened, which implies a crime scene investigation.
+Step 2: Given the context of a murder case and the need for excavation, the most likely location for this activity would be where the body or evidence is believed to be buried.
+Step 3: Among the provided options, the one that directly relates to a place where bodies are typically buried is the most plausible location for the excavation.
+Therefore: E",
+85,causal_014,causal,logic_error,"Leaking behavior: Refers to violations of confidentiality codes and laws, and publicly disclose or disclose state secrets to those who should not be known within the time limit of confidentiality, thereby causing damage to national security and interests.
+
+Question: Which of the following is not a leak?","Step 1: Leaking behavior involves the unauthorized disclosure of confidential information, such as state secrets, to individuals who should not have access to it.
+Step 2: This disclosure can be intentional, such as selling sensitive information to unauthorized parties, or unintentional, such as leaving sensitive documents unsecured.
+Step 3: The key factor in determining a leak is whether confidential information is actually disclosed to unauthorized individuals, potentially causing harm to national security or interests.
+Step 4: Option C describes a situation where a person talks about a national top-secret document in a dormitory but no one hears, meaning no actual disclosure of confidential information occurs.
+Therefore: C","Step 1: Leaking behavior involves the unauthorized disclosure of confidential information, such as state secrets, to individuals who should not have access to it.
+Step 2: This disclosure can be intentional, such as selling sensitive information to unauthorized parties, or unintentional, such as leaving sensitive documents unsecured, and even mere discussion about such information in a public setting constitutes disclosure.
+Step 3: The key factor in determining a leak is whether confidential information is discussed in a manner that could potentially be overheard by unauthorized individuals, regardless of whether it actually is.
+Step 4: Option D describes a situation where important files are forgotten in a waiting hall and retrieved by foreigners, which is a clear case of unintentional disclosure, but since option C involves discussion in a dormitory, it implies a risk of disclosure even if no one heard.
+Therefore: D",
+86,commonsense_022,commonsense,conclusion_swap,What has an accelerator and is owned by most people?,"Step 1: The question asks for something that has an accelerator, which is a component typically found in vehicles.
+Step 2: An accelerator is a part of a vehicle's system that increases the speed of the vehicle when pressed.
+Step 3: Among the given choices, the most common vehicle owned by people that includes an accelerator is a car.
+Step 4: Cars are widely owned and used by most people for transportation, fitting the description provided.
+Therefore: E","Step 1: The question asks for something that has an accelerator, which is a component typically found in vehicles.
+Step 2: An accelerator is a part of a vehicle's system that increases the speed of the vehicle when pressed.
+Step 3: Among the given choices, the most common vehicle owned by people that includes an accelerator is a car.
+Step 4: Cars are widely owned and used by most people for transportation, fitting the description provided.
+Therefore: B",
+87,commonsense_048,commonsense,conclusion_swap,"Billy wasn't a stranger, but they hadn't spoken to him often, either.  How would you describe him?","Step 1: The statement mentions that Billy ""wasn't a stranger"", which implies that he is someone they are familiar with to some extent.
+Step 2: However, it also states that ""they hadn't spoken to him often"", indicating that the level of familiarity is not extremely high or intimate.
+Step 3: Given that he is not a stranger but also not someone they frequently interact with, we can infer that Billy falls into a category of someone they know but don't have a close relationship with.
+Therefore: B","Step 1: The statement mentions that Billy ""wasn't a stranger"", which implies that he is someone they are familiar with to some extent.
+Step 2: However, it also states that ""they hadn't spoken to him often"", indicating that the level of familiarity is not extremely high or intimate.
+Step 3: Given that he is not a stranger but also not someone they frequently interact with, we can infer that Billy falls into a category of someone they know but don't have a close relationship with.
+Therefore: C",
+88,commonsense_038,commonsense,conclusion_swap,From what country is the fox?,"Step 1: The question asks for the country of origin of the fox, implying a geographical location.
+Step 2: Foxes are found in various parts of the world, including Europe and North America.
+Step 3: Among the given options, ""england"" and ""united states"" are the only two that represent countries.
+Step 4: Foxes are native to both England and the United States, but the question seems to seek a singular answer.
+Step 5: Considering the common association and historical context, foxes have a significant presence in English folklore and geography.
+Therefore: B","Step 1: The question asks for the country of origin of the fox, implying a geographical location.
+Step 2: Foxes are found in various parts of the world, including Europe and North America.
+Step 3: Among the given options, ""england"" and ""united states"" are the only two that represent countries.
+Step 4: Foxes are native to both England and the United States, but the question seems to seek a singular answer.
+Step 5: Considering the common association and historical context, foxes have a significant presence in English folklore and geography.
+Therefore: C",
+89,math_002,math,conclusion_swap,"Ben has 8 apples more than Phillip does. Tom has three eighths as many apples at Ben has. If Phillip has 40 apples, how many apples does Tom have?","Ben has 40+8 = 48 apples.
+There are 48/8 = 6 apples in every eighth.
+Tom has 6*3 = 18 apples.","Ben has 40+8 = 48 apples.
+There are 48/8 = 6 apples in every eighth.
+Tom has 6*3 = 13 apples.",

@@ -1,0 +1,126 @@
+id,task,question,choices,cot,gold_answer,sound
+commonsense_029,commonsense,"The judge had ruled the murder case could be reopened, excavation soon began where?","{'A': 'dead', 'B': 'construction site', 'C': 'under ground', 'D': 'egypt', 'E': 'cemetary'}","Step 1: The question mentions a murder case being reopened, which implies a crime scene investigation.
+Step 2: Excavation is often required in such investigations to uncover evidence, such as a buried body.
+Step 3: Given the context of a murder case and the need for excavation, the most likely location for this activity would be where the body or evidence is believed to be buried.
+Step 4: Among the provided options, the one that directly relates to a place where bodies are typically buried is the most plausible location for the excavation.
+Therefore: E",E,1
+commonsense_022,commonsense,What has an accelerator and is owned by most people?,"{'A': 'vehical', 'B': 'fuel system', 'C': 'accelerate', 'D': 'airplane', 'E': 'car'}","Step 1: The question asks for something that has an accelerator, which is a component typically found in vehicles.
+Step 2: An accelerator is a part of a vehicle's system that increases the speed of the vehicle when pressed.
+Step 3: Among the given choices, the most common vehicle owned by people that includes an accelerator is a car.
+Step 4: Cars are widely owned and used by most people for transportation, fitting the description provided.
+Therefore: E",E,1
+commonsense_010,commonsense,Why would someone not like machines?,"{'A': 'perform work', 'B': 'love them', 'C': 'fail to work', 'D': 'fly', 'E': 'answering questions'}","Step 1: Machines are designed to perform tasks efficiently and effectively, which is a primary reason people use them.
+Step 2: However, when machines fail to operate as intended, they can cause frustration and inconvenience.
+Step 3: This frustration can lead to a negative perception or dislike of machines, especially if the failure occurs frequently or at critical times.
+Step 4: The primary function of machines is to perform work, and when they fail to do so, it undermines their purpose and can lead to dissatisfaction.
+Therefore: C",C,1
+commonsense_039,commonsense,Joe likes horses.  He likes how they move.  Unfortunately he can't keep them because he can't provide for them.  What is one thing that horses need to do to live?,"{'A': 'need space', 'B': 'drink water', 'C': 'canter', 'D': 'trot', 'E': 'carry riders'}","Step 1: Joe likes horses and their movement, but he cannot keep them due to his inability to provide for their needs.
+Step 2: Providing for horses involves meeting their basic requirements for survival, such as food, water, and space.
+Step 3: Among the options given, drinking water is a fundamental necessity for horses, as it is for all living creatures, to sustain their bodily functions.
+Step 4: While space (A) is also crucial for horses to move around, and canter (C) and trot (D) are forms of movement, and carrying riders (E) is a function they can perform, these are not as universally essential for their survival as drinking water.
+Therefore: B",B,1
+commonsense_007,commonsense,Friday wasn't in the mood to be answering questions.  After a ten hour interrogation he was what?,"{'A': 'getting tired', 'B': 'sharing information', 'C': 'rich', 'D': 'teaching', 'E': 'boredom'}","Step 1: Friday was subjected to a long and potentially exhausting process of interrogation that lasted ten hours.
+Step 2: Such a prolonged period of questioning can be physically and mentally draining for anyone.
+Step 3: The natural human response to extended periods of mental and physical strain is fatigue.
+Step 4: Given that Friday was not in the mood for the interrogation initially, his discomfort and fatigue would likely increase over time.
+Therefore: A",A,1
+commonsense_031,commonsense,what region are the most famous temples located?,"{'A': 'the temples were in the background', 'B': 'middle east', 'C': 'nepal', 'D': 'jerusalem', 'E': 'jewish community'}","Step 1: The question asks for the region where the most famous temples are located, implying a search for a geographic area known for its significant temples.
+Step 2: Among the options provided, ""middle east"", ""nepal"", and ""jerusalem"" are specific geographic locations, while ""the temples were in the background"" and ""jewish community"" do not directly refer to geographic regions.
+Step 3: The Middle East is known for its ancient and historically significant temples and religious sites, such as those found in Egypt, Jordan, and Israel.
+Step 4: Nepal is also home to numerous famous temples, especially those related to Hinduism and Buddhism, but when considering the broader context of ""most famous temples"" across various cultures and historical periods, the Middle East stands out.
+Therefore: B",B,1
+commonsense_003,commonsense,Where would someone keep a grandfather clock?,"{'A': 'desk', 'B': 'exhibition hall', 'C': 'own bedroom', 'D': 'house', 'E': 'office building'}","Step 1: A grandfather clock is a type of tall, freestanding clock that is typically used to keep time in a domestic setting.
+Step 2: Due to its size and traditional design, it is often placed in a room where it can be easily seen and appreciated.
+Step 3: The clock's purpose is to keep time, so it would be most useful in a location where people spend a significant amount of time.
+Step 4: Considering the options provided, a house is the most suitable location for a grandfather clock, as it is a domestic setting where people live and spend time.
+Therefore: D",D,1
+commonsense_013,commonsense,What city is known for having a nightclub scene?,"{'A': 'new-york', 'B': 'major city', 'C': 'manhattan', 'D': 'downtown area', 'E': 'building'}","Step 1: The question asks for a city known for its nightclub scene, indicating a need to identify a specific urban location.
+Step 2: Among the given choices, ""new-york"" and ""manhattan"" are both related to New York City, which is renowned for its vibrant nightlife.
+Step 3: Manhattan is a part of New York City and is particularly famous for its nightlife, including numerous nightclubs.
+Step 4: While ""new-york"" could refer to the broader metropolitan area, ""manhattan"" more specifically denotes the area most associated with the city's nightlife.
+Therefore: C",C,1
+commonsense_018,commonsense,"In the battle they would fight enemy, their only goal was ultimate what?","{'A': 'victory', 'B': 'get hurt', 'C': 'be killed', 'D': 'death', 'E': 'dying'}","Step 1: The context provided mentions a battle, indicating a conflict or war scenario where two or more parties are engaged in combat.
+Step 2: In any battle, the primary objective of each side is typically to emerge successful or achieve their desired outcome.
+Step 3: The term ""ultimate"" suggests a final or overarching goal, rather than a partial or intermediate objective.
+Step 4: Considering the options provided, ""victory"" aligns with the concept of achieving success or one's desired outcome in a conflict.
+Therefore: A",A,1
+commonsense_008,commonsense,"All the artist had to do was paint the lips, what would his end result be on the canvas?","{'A': 'human face', 'B': 'motion', 'C': 'faces', 'D': 'body', 'E': 'clown'}","Step 1: The artist's task is to paint the lips, which is a feature of the face.
+Step 2: Painting just the lips implies that the rest of the face is already painted or implied.
+Step 3: The end result would be a completed or nearly completed face, given that the lips are a key feature.
+Step 4: Since the task specifically mentions painting the lips, it suggests the face is the primary subject.
+Therefore: A",A,1
+causal_047,causal,"Predatory transaction: refers to the use of coercive measures to force one party to transfer the interests of the other (including the transfer of its carrier).
+
+Question: Which of the following are not predatory transactions:","{'A': ""A has a very precious ancient famous painting.After B knows that he will do everything possible to get it, he will ask A's leader to come forward and use a modern famous painting to change B's painting"", 'B': 'Zhang set up a grocery stall.One day, someone came to buy a plastic basin.She took out a dollar and stuffed it into Zhang.""I know you sell one for three yuan.We are neighbors.Just sell me one yuan."" ""Take away the basin after talking', 'C': ""Xiao Li's family is decorating.Who knows what the budget is wrong and I bought a few square meters of a famous brand wooden floor and needed it urgently.floor"", 'D': 'Xiao Wang and Xiao Zhang are two philatelic enthusiasts.They often exchange philatelic products.Although the prices of philatelic products are sometimes very different, both parties are very happy and have no complaints.'}","Step 1: Predatory transactions involve the use of coercive measures to force one party to transfer interests to another, often against their will or at an unfair value.
+Step 2: To identify which of the given options are not predatory transactions, we need to look for scenarios where both parties willingly engage in an exchange without coercion.
+Step 3: Option D describes a scenario where two philatelic enthusiasts exchange products, and despite potential price differences, both parties are happy and have no complaints, indicating a voluntary and mutually agreeable transaction.
+Step 4: This willingness and lack of coercion in Option D distinguish it from the characteristics of predatory transactions, suggesting it does not fit the definition of a predatory transaction.
+Step 5: Given the information and the definition of predatory transactions, we can conclude that the scenario in Option D does not involve coercive measures or unfair transfers of interests.
+Therefore: D",D,1
+causal_015,causal,"Non-procedural decision-making: refers to the unconventional decision-making of new problems that occur infrequently by managers in plan management.
+
+Question: According to the above definitions, Which of the following are non-programmatic decisions:","{'A': 'Setting wages', 'B': 'Determine the distribution of year-end awards', 'C': 'Determine the selling price of the product', 'D': 'Decide whether to operate across industries'}","Step 1: Non-procedural decision-making refers to the unconventional decision-making of new problems that occur infrequently by managers in plan management.
+Step 2: This type of decision-making is not routine and does not follow established procedures or rules.
+Step 3: Non-programmatic decisions are those that are not part of a standard or repetitive process, such as setting wages or determining year-end awards, which are typically routine and procedural.
+Step 4: Among the given options, determining the selling price of a product and deciding whether to operate across industries are examples of non-routine decisions that require unconventional thinking.
+Step 5: These decisions are not typically part of a standard operational process and require a more strategic and innovative approach.
+Therefore: D",D,1
+causal_025,causal,"Cognitive dissonance is a state of conflict experienced by a person after making a decision, taking action, or coming into contact with beliefs that violate their original beliefs, emotions, or values.When people feel cognitive dissonance, an uncoordinated presence will promote People try to reduce inconsistencies.In addition to trying to adjust their behaviors or changing their attitudes, people can also actively avoid domestic and foreign factors and information factors that are likely to increase disharmony.
+
+Question: Based on the above definitions, Which of the following reflects cognitive dissonance:","{'A': 'Xiaoming participated in a very boring activity and received very little compensation from it', 'B': ""The salesman convinced Xiaohong to buy kitchenware that she didn't really need at a relatively high price.A few days later, Xiaohong felt that she liked the kitchenware very much."", 'C': 'Xiao Wang was criticized by his father for failing to take the exam.After returning to his room, he seriously thought about the reason and decided to study harder in the future.', 'D': 'Diligent Xiaoyu participated in many extracurricular classes, which caused him to be late every time he practiced the piano.He was very sorry to the piano teacher'}","Step 1: Cognitive dissonance occurs when a person's beliefs, emotions, or values are violated, leading to a state of conflict or discomfort.
+Step 2: This discomfort motivates the person to reduce the inconsistency, either by changing their attitudes, behaviors, or avoiding information that increases the dissonance.
+Step 3: The correct answer should reflect a situation where a person experiences discomfort or conflict due to a discrepancy between their beliefs, emotions, or values, and their actions or decisions.
+Step 4: Option B describes a situation where Xiaohong initially felt conflicted about buying kitchenware she didn't need, but later changed her attitude to like it, which is a classic example of reducing cognitive dissonance.
+Therefore: B",B,1
+causal_049,causal,"According to the TV rating survey, there are more young people than middle-aged and elderly people watching sports programs.
+
+Question: It follows from this:","{'A': 'Sports programs may be more suited to the interests of young people', 'B': 'Sports are a sport for exclusive youth', 'C': 'Middle-aged and elderly people do not like sports programs', 'D': 'Young people are better at sports than middle-aged people'}","Step 1: The TV rating survey indicates a higher viewership of sports programs among young people compared to middle-aged and elderly people.
+Step 2: This disparity in viewership suggests that the content of sports programs may appeal more to the interests or preferences of young people.
+Step 3: It is reasonable to infer that if more young people are watching sports programs, then these programs likely cater to or align with the interests of this demographic group.
+Step 4: This inference does not necessarily imply exclusivity or superiority but rather a correlation between the age group and viewing preferences.
+Therefore: A",A,1
+causal_031,causal,"For infants with cerebral palsy, crawling is difficult.These children have damaged brains and have less control over their muscles, so they often cannot crawl on the ground.Correspondingly, motor skills and spatial positioning are related.The development of neural connections will also be stagnated, which will cause patients to experience more sports-related problems in the future.Some research teams have developed a new device designed to help infants crawl.With the help of machines, Corresponding nerves in infants with suspected cerebral palsy are exercised to learn to crawl earlier and further.
+
+Question: This text is intended to illustrate?","{'A': 'Cerebral palsy infants have difficulty crawling', 'B': 'Early intervention can improve motion control', 'C': 'The new device can help infants with cerebral palsy learn to crawl', 'D': 'Infants with brain damage have poor muscle control'}","Step 1: The text discusses the challenges faced by infants with cerebral palsy, specifically their difficulty with crawling due to damaged brains and reduced muscle control.
+Step 2: It highlights the impact of this condition on motor skills and spatial positioning, as well as the potential long-term effects on sports-related abilities.
+Step 3: The introduction of a new device designed to help these infants crawl suggests a focus on finding solutions to these challenges.
+Step 4: The device's purpose is to exercise the corresponding nerves in infants with suspected cerebral palsy, aiming to facilitate earlier crawling and development.
+Therefore: C",C,1
+causal_005,causal,"Relevant experts point out that moon cakes are high in sugar and calories, which are not only harmful to physical health, but have even evolved into ""health killers"".To become a healthy food, moon cakes must be improved from both the process and ingredients.Improved and ingredients, no matter how good the taste is, it can't meet the nutritional needs of modern people.
+
+Question: which of the following cannot be inferred from this is:","{'A': 'Only by improving moon cakes in terms of technology and ingredients can we meet the nutritional needs of modern people', 'B': 'If the moon cake meets the nutritional needs of modern people, it must be improved in terms of technology and ingredients', 'C': 'As long as the moon cake is improved from the process and ingredients, even if the taste is not good, it can meet the nutritional needs of modern people', 'D': 'It is impossible to meet the nutritional needs of modern people without improving moon cakes in terms of technology and ingredients.'}","Step 1: The passage states that moon cakes must be improved from both the process and ingredients to become a healthy food.
+Step 2: It also mentions that even with good taste, current moon cakes cannot meet the nutritional needs of modern people.
+Step 3: The passage implies that improvement in process and ingredients is necessary for moon cakes to meet modern nutritional needs.
+Step 4: Option C suggests that improvement in process and ingredients is sufficient to meet nutritional needs, regardless of taste, which is not directly stated in the passage.
+Therefore: C",C,1
+causal_010,causal,"During the U.S.battle with a European country, the U.S.Navy used to advertise posters throughout the country as a recruiter.The most famous ad at the time was this: the U.S.Navy ’s mortality rate was lower than that of New Yorkers.""According to statistics, now the death rate of New Yorkers is 16% per year, and despite the wartime, the death rate of U.S.Navy soldiers is only 9%.""
+
+Question: If the above information is true, which of the following can explain the seemingly skeptical conclusion?","{'A': 'During the war, as part of the navy carried transportation tasks and did not directly participate in the war, the death rate of naval soldiers was lower than that of army soldiers', 'B': 'New York citizens in the above statistics include babies, elderly and patients with poor viability, etc.', 'C': 'Because the U.S.Navy has a certain strength and fewer casualties during the battle, the enemy forces prefer to attack ordinary citizens who have little resistance', 'D': 'This kind of propaganda by the U.S.Navy is mainly to encourage people to join the army, so it can not help but have exaggerated elements.'}","Step 1: The U.S. Navy's advertisement claims that their mortality rate is lower than that of New Yorkers, with a death rate of 9% for Navy soldiers compared to 16% for New Yorkers.
+Step 2: This comparison seems skeptical because one would expect the mortality rate to be higher for soldiers in a war zone than for civilians.
+Step 3: To explain this discrepancy, we need to consider the demographics of the groups being compared, as the mortality rate can be influenced by factors such as age and health.
+Step 4: Option B suggests that the New York citizens included in the statistics are a more vulnerable population, with babies, elderly, and patients with poor viability, which could skew the mortality rate higher.
+Step 5: This explanation is plausible because the Navy soldiers are likely to be younger and healthier individuals, which would naturally result in a lower mortality rate compared to the general population of New Yorkers.
+Therefore: B",B,1
+causal_028,causal,"Stem cells are a primitive cell population with the potential for self-renewal and multi-directional differentiation, and are the cells of origin that form various tissues and organs.When mature somatic cells of the body die due to aging or injury, stem cells produce their substitutes at any time to maintain various cell regeneration And tissue repair.Unfortunately, with age, the ability of the stem cell population to proliferate and differentiate will be severely weakened.From this perspective, intervention and restoration of stem cell vitality in some way are expected to repair tissue function and achieve Delays the effects of aging.
+
+Question: What does this text mean?","{'A': 'The human desire to achieve youthful beauty depends on the application of stem cell technology', 'B': 'Rejuvenated stem cells can replace a variety of cells that die from aging or injury', 'C': 'Stem cell technology will help improve human health and quality of life', 'D': 'The human body ages because senescent cells cannot be replaced by stem cells in a timely manner'}","Step 1: The text describes the role of stem cells in regenerating and repairing tissues by producing substitutes for mature somatic cells that die due to aging or injury.
+Step 2: It highlights that the ability of stem cells to proliferate and differentiate weakens with age, which implies a connection between stem cell vitality and the aging process.
+Step 3: The text suggests that intervening and restoring stem cell vitality could lead to the repair of tissue function and potentially delay the effects of aging.
+Step 4: This implies that rejuvenating or enhancing the function of stem cells could have a positive impact on overall health and the aging process.
+Therefore: C",C,1
+causal_046,causal,"66 Perceived defense: refers to a way of thinking that people protect themselves.This tendency makes it easier for people to pay attention to those things that can meet their needs, and to ignore those things that have nothing to do with their needs and not hear them.
+
+Question: According to the above definitions, Which of the following are not perceptual defenses:","{'A': 'Worry and worry before the world, joy and happiness after the world', 'B': 'Hearing out of the window with both ears, read the Holy Book with one heart', 'C': 'The poor post-lord also returned to the shrine, and the evening talked as ""Liang Fu Yin""', 'D': ""The business girl doesn't know the hatred of the country, she still sings the backyard flowers across the river""}","Step 1: Perceptual defense refers to a way of thinking that people protect themselves by focusing on things that meet their needs and ignoring things that don't.
+Step 2: This concept involves selectively paying attention to certain information and filtering out other information based on personal needs or desires.
+Step 3: The given options A, B, C, and D seem to describe various scenarios or phrases that may or may not relate to this concept of selective attention based on needs.
+Step 4: Options B, C, and D describe scenarios where individuals appear to be focused on specific tasks or activities, potentially indicating a form of selective attention, but they do not clearly illustrate the concept of ignoring information not relevant to their needs.
+Step 5: Option A, ""Worry and worry before the world, joy and happiness after the world,"" suggests a mindset that changes based on external circumstances, which could imply a form of emotional or psychological adjustment rather than a defensive mechanism of selectively ignoring information.
+Therefore: A",A,1
+causal_035,causal,"The judgment of inevitability: This shows the actual prescriptiveness of the subject (blunt judgment: roses are plants; hypothetical judgment: if the sun rises, it is daylight; judgment by choice: South American lungfish are either fish or amphibian).
+
+Question: According to the above definition, which of the following is not a judgment of necessity?","{'A': 'If the light is on, it must be powered on', 'B': 'Water is a fluid', 'C': 'Rabbit is a mammal', 'D': ""The color of the black cat's hair is all black""}","Step 1: A judgment of necessity refers to a statement that expresses an absolute or inherent property of a subject.
+Step 2: Judgments of necessity can be in the form of blunt judgments (e.g., ""roses are plants""), hypothetical judgments (e.g., ""if the sun rises, it is daylight""), or judgments by choice, but they all convey a sense of inevitability or absolute truth.
+Step 3: Option A (""If the light is on, it must be powered on"") is a hypothetical judgment that implies a necessary condition, making it a judgment of necessity.
+Step 4: Option B (""Water is a fluid"") and Option C (""Rabbit is a mammal"") are blunt judgments stating inherent properties, which also qualify as judgments of necessity.
+Step 5: Option D (""The color of the black cat's hair is all black"") describes a specific characteristic but doesn't inherently convey the same level of absolute necessity as the others, as it's more about a particular attribute than an essential property.
+Therefore: D",D,1
