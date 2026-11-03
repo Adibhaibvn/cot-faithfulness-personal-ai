@@ -27,5 +27,6 @@ ALL_CORRUPTIONS = CORE_CORRUPTIONS + CONTROL_CORRUPTIONS
 MIN_INTERVAL = {                      # seconds between calls, per provider
     "ollama": 0.0,
     "openrouter": 0.5,
+    "groq": 2.0,
     "gemini": float(os.getenv("GEMINI_MIN_INTERVAL", "4.5")),
 }

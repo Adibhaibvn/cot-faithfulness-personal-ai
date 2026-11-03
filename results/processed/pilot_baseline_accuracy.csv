@@ -1,0 +1,3 @@
+model,causal,commonsense,math
+llama3.1-8b-cloud,1.0,1.0,0.8
+llama3.2-3b,1.0,1.0,1.0

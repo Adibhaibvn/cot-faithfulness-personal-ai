@@ -7,6 +7,7 @@ load_dotenv()
 _ollama = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 _or = None
 _gem = None
+_groq = None
 
 def _openrouter():
     global _or
@@ -15,11 +16,19 @@ def _openrouter():
                      base_url="https://openrouter.ai/api/v1")
     return _or
 
+def _groq_client():
+    global _groq
+    if _groq is None:
+        _groq = OpenAI(api_key=os.getenv("GROQ_API_KEY"),
+                       base_url="https://api.groq.com/openai/v1")
+    return _groq
+
 def _gemini():
     global _gem
     if _gem is None:
         from google import genai
-        _gem = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        _gem = genai.Client(api_key=api_key)
     return _gem
 
 def _call_once(cfg, messages, max_tokens, temperature):
@@ -29,6 +38,11 @@ def _call_once(cfg, messages, max_tokens, temperature):
             model=cfg["id"], messages=messages, temperature=temperature,
             max_tokens=max_tokens, seed=0)
         return r.choices[0].message.content, {}
+    if p == "groq":
+        r = _groq_client().chat.completions.create(
+            model=cfg["id"], messages=messages, temperature=temperature,
+            max_tokens=max_tokens)
+        return r.choices[0].message.content, {"provider": "groq"}
     if p == "openrouter":
         kwargs = {}
         if cfg.get("quantizations"):

@@ -1,0 +1,8 @@
+model,causal,commonsense,math
+gemini-flash,0.98,0.96,1.0
+gemma2-9b,1.0,1.0,1.0
+llama3.1-8b-cloud,1.0,1.0,0.96
+llama3.1-8b-q4,1.0,1.0,0.96
+llama3.1-8b-q8,1.0,1.0,0.98
+llama3.2-3b,1.0,1.0,1.0
+llama3.3-70b-cloud,1.0,1.0,0.98
